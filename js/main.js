@@ -51,4 +51,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
     animatedElements.forEach(el => observer.observe(el));
   }
+  
+  // Accordion Logic
+  const accordions = document.querySelectorAll('.accordion');
+  if (accordions.length > 0) {
+    accordions.forEach(accordion => {
+      const triggers = accordion.querySelectorAll('.accordion-trigger');
+      
+      triggers.forEach(trigger => {
+        trigger.addEventListener('click', () => {
+          const isExpanded = trigger.getAttribute('aria-expanded') === 'true';
+          const contentId = trigger.getAttribute('aria-controls');
+          const content = document.getElementById(contentId);
+          
+          // Close all other items in this accordion
+          triggers.forEach(otherTrigger => {
+            if (otherTrigger !== trigger) {
+              otherTrigger.setAttribute('aria-expanded', 'false');
+              const otherContentId = otherTrigger.getAttribute('aria-controls');
+              const otherContent = document.getElementById(otherContentId);
+              if (otherContent) otherContent.setAttribute('aria-hidden', 'true');
+            }
+          });
+          
+          // Toggle current item
+          trigger.setAttribute('aria-expanded', !isExpanded);
+          if (content) content.setAttribute('aria-hidden', isExpanded ? 'true' : 'false');
+        });
+      });
+    });
+  }
 });

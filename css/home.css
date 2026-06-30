@@ -422,36 +422,7 @@
   border: 0;
 }
 
-/* 7. Final CTA Banner */
-.cta-banner {
-  background-color: var(--color-primary);
-  color: var(--color-surface);
-  text-align: center;
-  padding: var(--space-16) var(--space-4);
-}
 
-.cta-banner h2 {
-  color: var(--color-surface);
-  margin-bottom: var(--space-4);
-}
-
-.cta-banner p {
-  color: rgba(255, 255, 255, 0.8);
-  margin-bottom: var(--space-8);
-  font-size: var(--text-lg);
-}
-
-/* Specific White button for blue background to ensure contrast */
-.btn-cta-alt {
-  background-color: var(--color-surface);
-  color: var(--color-accent);
-  border: 2px solid var(--color-surface);
-}
-.btn-cta-alt:hover {
-  background-color: #F7F8FA;
-  transform: translateY(-2px);
-  color: #B82A22;
-}
 
 /* Media Queries */
 @media (min-width: 768px) {
