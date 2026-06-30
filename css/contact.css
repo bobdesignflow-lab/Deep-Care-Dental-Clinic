@@ -22,11 +22,11 @@
 
 /* Form Styles */
 .contact-form-wrapper {
-    background-color: var(--color-white);
-    border: 1px solid var(--color-light);
-    border-radius: var(--radius-lg);
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
     padding: var(--space-6);
-    box-shadow: var(--shadow-sm);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
 @media (min-width: 768px) {
@@ -62,12 +62,12 @@
     width: 100%;
     padding: var(--space-3);
     border: 1px solid #d1d5db;
-    border-radius: var(--radius-md);
+    border-radius: 8px;
     font-family: inherit;
     font-size: 1rem;
     color: var(--color-text);
-    background-color: var(--color-white);
-    transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+    background-color: var(--color-surface);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .form-group input:focus,
@@ -109,7 +109,7 @@
     border: 1px solid #bbf7d0;
     color: #166534;
     padding: var(--space-6);
-    border-radius: var(--radius-md);
+    border-radius: 8px;
     text-align: center;
     margin-bottom: var(--space-6);
 }
@@ -126,10 +126,10 @@
 /* Info Card Styles */
 .contact-info-card {
     background-color: #f0f7ff; /* light blue-tinted background */
-    border-radius: var(--radius-lg);
+    border-radius: 12px;
     padding: var(--space-6);
     height: 100%;
-    box-shadow: var(--shadow-sm);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
     border: 1px solid #e0efff;
 }
 
@@ -175,7 +175,7 @@
 
 .contact-info-list p {
     margin-bottom: var(--space-2);
-    color: var(--color-text-light);
+    color: #4A5568;
     line-height: 1.5;
 }
 
@@ -234,9 +234,9 @@
     display: inline-flex;
     align-items: center;
     gap: var(--space-2);
-    background: var(--color-white);
+    background: var(--color-surface);
     padding: var(--space-2) var(--space-3);
-    border-radius: var(--radius-sm);
+    border-radius: 6px;
     font-size: 0.875rem;
     font-weight: 500;
     border: 1px solid rgba(0,0,0,0.05);
@@ -264,8 +264,8 @@
     height: 44px;
     background-color: var(--color-primary);
     border-radius: 50%;
-    color: var(--color-white);
-    transition: background-color var(--transition-fast), transform var(--transition-fast);
+    color: var(--color-surface);
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .social-links-row a:hover {
@@ -289,9 +289,9 @@
 .map-wrapper {
     width: 100%;
     height: 350px;
-    border-radius: var(--radius-lg);
+    border-radius: 12px;
     overflow: hidden;
-    box-shadow: var(--shadow-md);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 @media (min-width: 768px) {
@@ -308,13 +308,13 @@
 
 /* Hours Card */
 .hours-card {
-    background-color: var(--color-white);
+    background-color: var(--color-surface);
     max-width: 500px;
     margin: 0 auto;
     padding: var(--space-6);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-md);
-    border: 1px solid var(--color-light);
+    border-radius: 12px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--color-border);
 }
 
 @media (min-width: 768px) {
