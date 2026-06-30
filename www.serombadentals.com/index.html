@@ -1,0 +1,1446 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.serombadentals.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Jun 2026 14:05:47 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seromba Dentals Clinic, Nairobi, Kenya | Modern Dental Clinic in Nairobi CBD</title>
+    <meta name="description" content="Seromba Dentals Clinic, Nairobi, Kenya provides modern dental care in Nairobi CBD, including dental implants, teeth whitening, braces, cosmetic dentistry, gum care, and family oral health services.">
+    <link rel="icon" href="logo.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0077b6',
+                        secondary: '#00b4d8',
+                        accent: '#ff9e00',
+                        light: '#f8f9fa',
+                        dark: '#212529'
+                    },
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-bg {
+            background:
+                linear-gradient(135deg, rgba(0,119,182,0.68) 0%, rgba(0,180,216,0.62) 100%),
+                linear-gradient(180deg, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0.08) 100%),
+                url('hero-seromba-dentals-nairobi-cbd.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: scale(1.03);
+        }
+        .google-review-slide {
+            min-width: 100%;
+            display: flex;
+        }
+        .patient-review-card {
+            min-height: 22rem;
+            width: 100%;
+        }
+        .patient-review-copy {
+            white-space: pre-line;
+        }
+        .google-review-control:disabled {
+            opacity: 0.35;
+            cursor: not-allowed;
+        }
+        @media (max-width: 768px) {
+            .patient-review-card {
+                min-height: 18rem;
+            }
+            .patient-review-copy {
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 6;
+                overflow: hidden;
+                white-space: normal;
+                font-size: 0.95rem;
+                line-height: 1.55;
+            }
+        }
+        @media (max-width: 480px) {
+            .patient-review-card {
+                min-height: 17rem;
+            }
+            .patient-review-copy {
+                -webkit-line-clamp: 5;
+            }
+        }
+        .map-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Partners Carousel Animation */
+        .partners-carousel-container {
+            mask: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+            -webkit-mask: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+        }
+        .partners-carousel {
+            width: max-content;
+            will-change: transform;
+        }
+        .partner-item {
+            width: 9.5rem !important;
+            height: 5.75rem !important;
+            margin-left: 0.75rem !important;
+            margin-right: 0.75rem !important;
+            padding: 0.85rem !important;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            border: 1px solid rgba(0, 119, 182, 0.12);
+            border-radius: 0.75rem;
+            box-shadow: 0 10px 20px rgba(0, 119, 182, 0.08);
+        }
+        .partner-item img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: contain !important;
+        }
+        .animate-scroll-right {
+            animation: scroll-right 28s linear infinite;
+        }
+        /* Faster animation on mobile with complete visibility */
+        @media (max-width: 768px) {
+            .animate-scroll-right {
+                animation: scroll-right 18s linear infinite;
+            }
+            .partner-item {
+                width: 7.25rem !important;
+                height: 4.6rem !important;
+                margin-left: 0.35rem !important;
+                margin-right: 0.35rem !important;
+                padding: 0.65rem !important;
+            }
+            .partners-carousel {
+                width: max-content;
+            }
+            .partners-carousel-container {
+                mask: linear-gradient(to right, transparent, black 2%, black 98%, transparent);
+                -webkit-mask: linear-gradient(to right, transparent, black 2%, black 98%, transparent);
+            }
+        }
+        @keyframes scroll-right {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+        .partners-carousel:hover {
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <!-- Floating Contact Buttons -->
+    <div class="contact-action-dock" aria-label="Quick contact options">
+        <a href="https://wa.me/254712858686?text=Hello%20Seromba%20Dentals%20Clinic%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener" class="contact-action contact-action--whatsapp">
+            <span class="contact-action__icon"><i class="fab fa-whatsapp"></i></span>
+            <span class="contact-action__text"><strong>WhatsApp</strong><small>Fast booking</small></span>
+        </a>
+        <a href="tel:+254712858686" class="contact-action contact-action--call">
+            <span class="contact-action__icon"><i class="fas fa-phone-alt"></i></span>
+            <span class="contact-action__text"><strong>Call Clinic</strong><small>Speak to us</small></span>
+        </a>
+    </div>
+
+    <!-- Calendly floating button -->
+    <div id="calendly-floating-button" class="fixed bottom-6 left-6 z-50">
+        <a href="calendar" class="flex items-center bg-primary text-white px-4 py-3 rounded-full shadow-lg hover:bg-secondary transition-all transform hover:scale-110 floating">
+            <i class="far fa-calendar-alt mr-2"></i>
+            <span>Book on Calendar</span>
+        </a>
+    </div>
+
+    <!-- Header -->
+    <header class="sticky top-0 z-40 bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="h-12 flex items-center justify-center">
+                    <img src="logo.png" alt="Seromba Dentals Clinic Logo" class="h-12 w-auto object-contain" loading="lazy" decoding="async">
+                </div>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="#home" class="text-dark hover:text-primary font-medium transition-colors">Home</a>
+                <a href="#about" class="text-dark hover:text-primary font-medium transition-colors">About</a>
+                <a href="#services" class="text-dark hover:text-primary font-medium transition-colors">Services</a>
+                <a href="#testimonials" class="text-dark hover:text-primary font-medium transition-colors">Testimonials</a>
+                <a href="calendar" class="text-dark hover:text-primary font-medium transition-colors">Calendar</a>
+                <a href="#contact" class="text-dark hover:text-primary font-medium transition-colors">Contact</a>
+            </nav>
+            
+            <div class="flex items-center space-x-3">
+                <a href="https://wa.me/254712858686?text=Hello%20Seromba%20Dentals%20Clinic%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener" class="hidden lg:inline-flex items-center bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full font-medium transition-all transform hover:scale-105">
+                    <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+                </a>
+                <a href="tel:+254712858686" class="hidden md:inline-flex items-center bg-primary hover:bg-secondary text-white px-5 py-2 rounded-full font-medium transition-all transform hover:scale-105">
+                    <i class="fas fa-phone-alt mr-2"></i> Call
+                </a>
+                <a href="calendar" class="hidden xl:inline-flex items-center border border-primary text-primary hover:bg-primary hover:text-white px-5 py-2 rounded-full font-medium transition-all">
+                    Calendar
+                </a>
+                
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" id="mobile-menu-btn" class="md:hidden text-dark p-2">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t shadow-lg">
+            <div class="container mx-auto px-4 py-4">
+                <nav class="flex flex-col space-y-4">
+                    <a href="#home" onclick="toggleMobileMenu()" class="text-dark hover:text-primary font-medium transition-colors mobile-nav-link">Home</a>
+                    <a href="#about" onclick="toggleMobileMenu()" class="text-dark hover:text-primary font-medium transition-colors mobile-nav-link">About</a>
+                    <a href="#services" onclick="toggleMobileMenu()" class="text-dark hover:text-primary font-medium transition-colors mobile-nav-link">Services</a>
+                    <a href="#testimonials" onclick="toggleMobileMenu()" class="text-dark hover:text-primary font-medium transition-colors mobile-nav-link">Testimonials</a>
+                    <a href="calendar" onclick="toggleMobileMenu()" class="text-dark hover:text-primary font-medium transition-colors mobile-nav-link">Calendar</a>
+                    <a href="#contact" onclick="toggleMobileMenu()" class="text-dark hover:text-primary font-medium transition-colors mobile-nav-link">Contact</a>
+                    <a href="https://wa.me/254712858686?text=Hello%20Seromba%20Dentals%20Clinic%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener" onclick="toggleMobileMenu();" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-medium transition-all transform hover:scale-105 text-center">
+                        <i class="fab fa-whatsapp mr-2"></i> WhatsApp Appointment
+                    </a>
+                    <a href="tel:+254712858686" onclick="toggleMobileMenu();" class="bg-primary hover:bg-secondary text-white px-6 py-3 rounded-full font-medium transition-all transform hover:scale-105 text-center">
+                        <i class="fas fa-phone-alt mr-2"></i> Call Clinic
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg text-white min-h-[calc(100svh-76px)] flex items-center py-16 sm:py-20 md:py-32">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold mb-5 md:mb-6 max-w-5xl mx-auto leading-tight animate-on-scroll drop-shadow-lg">Seromba Dentals Clinic Nairobi &ndash; Trusted Modern Dental Clinic in Nairobi.</h1>
+            <p class="text-base sm:text-xl md:text-2xl mb-8 md:mb-10 max-w-4xl mx-auto animate-on-scroll drop-shadow">Your smile comes first. At Seromba Dentals Clinic, we provide advanced, patient-centered dental care using modern technology in the heart of Nairobi. From preventive care to complex treatments, we focus on comfort, precision, and long-lasting results.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4 animate-on-scroll">
+                <a href="https://wa.me/254712858686?text=Hello%20Seromba%20Dentals%20Clinic%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener" class="w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-4 rounded-full text-base md:text-lg transition-all transform hover:scale-105 shadow-lg text-center">
+                    <i class="fab fa-whatsapp mr-2"></i> Book on WhatsApp
+                </a>
+                <a href="tel:+254712858686" class="w-full sm:w-auto bg-primary hover:bg-secondary text-white font-bold px-8 py-4 rounded-full text-base md:text-lg transition-all transform hover:scale-105 shadow-lg text-center">
+                    <i class="fas fa-phone-alt mr-2"></i> Call Clinic
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16 animate-on-scroll">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">About Seromba Dentals Clinic Nairobi</h2>
+                <div class="w-20 h-1 bg-accent mx-auto"></div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2 animate-on-scroll">
+                    <h3 class="text-2xl font-bold text-dark mb-4">Your Trusted Dental Care Destination</h3>
+                    <p class="text-gray-700 mb-6">At Seromba Dentals Clinic, we are committed to providing exceptional dental care using the latest technology and techniques. Our state-of-the-art facility in the heart of Nairobi offers a comfortable and welcoming environment for all our patients.</p>
+                    <p class="text-gray-700 mb-6">Our team of experienced dentists and professionals are dedicated to helping you achieve and maintain optimal oral health. We believe in personalized care tailored to each patient's unique needs.</p>
+                    <div class="grid grid-cols-2 gap-4 mt-8">
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-2"></i>
+                            <span class="font-medium">Advanced Technology</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-2"></i>
+                            <span class="font-medium">Experienced Professionals</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-2"></i>
+                            <span class="font-medium">Comfortable Environment</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-2"></i>
+                            <span class="font-medium">Personalized Care</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2 grid grid-cols-2 gap-4 animate-on-scroll">
+                    <img src="about3.jpg" alt="Modern Dental Clinic Interior" class="rounded-lg shadow-lg h-64 object-cover" loading="lazy" decoding="async">
+                    <img src="about1.png" alt="Professional Dental Team" class="rounded-lg shadow-lg h-64 object-cover mt-8" loading="lazy" decoding="async">
+                    <img src="about2.png" alt="Patient Consultation" class="rounded-lg shadow-lg h-64 object-cover mt-8" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-light">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16 animate-on-scroll">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Dental Services in Nairobi CBD</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto">Seromba Dentals provides modern dental services in Nairobi CBD, including dental implants, surgical implant placement, dentures, teeth whitening, braces, gum care, dental checkups, X-rays, root canals, fillings, extractions, crowns, bridges, dental splinting, and family dentistry.</p>
+                <div class="w-20 h-1 bg-accent mx-auto mt-4"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 animate-on-scroll">
+                    <img src="service-teeth-whitening-nairobi-unique.png" alt="Professional teeth whitening patient with shade guide at Seromba Dentals in Nairobi CBD" class="w-full h-48 object-cover" loading="lazy" decoding="async">
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-5">
+                            <i class="fas fa-teeth text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark mb-3">Professional Teeth Whitening in Nairobi</h3>
+                        <p class="text-gray-600 mb-4">Safe, professionally supervised whitening in Nairobi CBD to remove stains and brighten your smile with natural-looking results.</p>
+                        <ul class="text-gray-600 text-sm mb-4">
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Fast in-clinic whitening</li>
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Reduced sensitivity approach</li>
+                            <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Basic, Premium, and Deluxe packages</li>
+                        </ul>
+                        <a href="teeth-whitening" class="text-primary font-medium hover:text-secondary transition-colors">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 animate-on-scroll">
+                    <img src="service-dental-implants-nairobi-unique.png" alt="Dental implant patient with implant model at Seromba Dentals in Nairobi CBD" class="w-full h-48 object-cover" loading="lazy" decoding="async">
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-5">
+                            <i class="fas fa-teeth-open text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark mb-3">Dental Implants in Nairobi</h3>
+                        <p class="text-gray-600 mb-4">Restore missing teeth with strong, natural-looking dental implants planned for comfort, function, and long-term oral health.</p>
+                        <ul class="text-gray-600 text-sm mb-4">
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Single tooth implants</li>
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Multiple implant solutions</li>
+                            <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Full mouth implant restorations</li>
+                        </ul>
+                        <a href="dental-implants" class="text-primary font-medium hover:text-secondary transition-colors">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 animate-on-scroll">
+                    <img src="service-surgical-implant-placement-nairobi.png" alt="Surgical implant placement patient with implant guide in Nairobi CBD" class="w-full h-48 object-cover" loading="lazy" decoding="async">
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-5">
+                            <i class="fas fa-screwdriver-wrench text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark mb-3">Surgical Implant Placement in Nairobi</h3>
+                        <p class="text-gray-600 mb-4">Precise dental implant surgery in Nairobi CBD to replace missing teeth with stable, long-lasting implant support.</p>
+                        <ul class="text-gray-600 text-sm mb-4">
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Implant suitability assessment</li>
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Titanium implant placement</li>
+                            <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Healing and restoration planning</li>
+                        </ul>
+                        <a href="surgical-implant-placement" class="text-primary font-medium hover:text-secondary transition-colors">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 animate-on-scroll">
+                    <img src="service-orthodontics-braces-nairobi-unique.png" alt="Orthodontics and braces patient with aligner case at Seromba Dentals in Nairobi CBD" class="w-full h-48 object-cover" loading="lazy" decoding="async">
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-5">
+                            <i class="fas fa-teeth text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark mb-3">Orthodontics &amp; Braces in Nairobi</h3>
+                        <p class="text-gray-600 mb-4">Straighten crowded, spaced, or misaligned teeth with braces and clear aligner options for children, teens, and adults.</p>
+                        <ul class="text-gray-600 text-sm mb-4">
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Traditional metal braces</li>
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Clear aligners and ceramic braces</li>
+                            <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Personalized smile planning</li>
+                        </ul>
+                        <a href="orthodontics" class="text-primary font-medium hover:text-secondary transition-colors">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 animate-on-scroll">
+                    <img src="service-cosmetic-dentistry-nairobi.png" alt="Cosmetic dentistry patient with veneer shade guide in Nairobi CBD" class="w-full h-48 object-cover" loading="lazy" decoding="async">
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-5">
+                            <i class="fas fa-tooth text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark mb-3">Cosmetic Dentistry in Nairobi</h3>
+                        <p class="text-gray-600 mb-4">Improve tooth colour, shape, balance, and confidence with veneers, bonding, whitening, and smile makeover planning.</p>
+                        <ul class="text-gray-600 text-sm mb-4">
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Porcelain veneers and bonding</li>
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Smile makeover planning</li>
+                            <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Natural-looking cosmetic results</li>
+                        </ul>
+                        <a href="cosmetic-dentistry" class="text-primary font-medium hover:text-secondary transition-colors">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 animate-on-scroll">
+                    <img src="service-periodontal-care-nairobi-graphic.png" alt="Periodontal care and gum disease treatment graphic in Nairobi CBD" class="w-full h-48 object-cover" loading="lazy" decoding="async">
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-5">
+                            <i class="fas fa-heartbeat text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark mb-3">Periodontal Care &amp; Gum Disease Treatment in Nairobi</h3>
+                        <p class="text-gray-600 mb-4">Gum disease treatment in Nairobi CBD for bleeding gums, gum recession, bad breath, and periodontal infection.</p>
+                        <ul class="text-gray-600 text-sm mb-4">
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Deep cleaning and maintenance</li>
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Gum grafting and surgery</li>
+                            <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Bone regeneration support</li>
+                        </ul>
+                        <a href="periodontal-care" class="text-primary font-medium hover:text-secondary transition-colors">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 animate-on-scroll">
+                    <img src="service-dental-examinations-nairobi-graphic.png" alt="Dental and oral examination tools for checkups in Nairobi CBD" class="w-full h-48 object-cover" loading="lazy" decoding="async">
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-5">
+                            <i class="fas fa-search text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark mb-3">Dental &amp; Oral Examinations in Nairobi</h3>
+                        <p class="text-gray-600 mb-4">Comprehensive dental checkups in Nairobi to detect cavities, gum disease, infections, bite issues, and tooth wear early.</p>
+                        <ul class="text-gray-600 text-sm mb-4">
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Full oral health assessment</li>
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Gum and cavity screening</li>
+                            <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Preventive care planning</li>
+                        </ul>
+                        <a href="dental-examinations" class="text-primary font-medium hover:text-secondary transition-colors">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Service 7 -->
+                <div class="service-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 animate-on-scroll">
+                    <img src="service-dental-x-rays-nairobi-graphic.png" alt="Dental X-ray imaging monitor and sensor in Nairobi CBD" class="w-full h-48 object-cover" loading="lazy" decoding="async">
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-5">
+                            <i class="fas fa-x-ray text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark mb-3">Dental X-Rays in Nairobi</h3>
+                        <p class="text-gray-600 mb-4">Modern dental imaging in Nairobi CBD for hidden decay, infections, bone loss, impacted teeth, and treatment planning.</p>
+                        <ul class="text-gray-600 text-sm mb-4">
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Bitewing and periapical X-rays</li>
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Panoramic imaging support</li>
+                            <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Safe diagnostic planning</li>
+                        </ul>
+                        <a href="dental-x-rays" class="text-primary font-medium hover:text-secondary transition-colors">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Service 8 -->
+                <div class="service-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 animate-on-scroll">
+                    <img src="service-root-canal-treatment-nairobi-graphic.png" alt="Root canal treatment tooth model and dental instruments in Nairobi CBD" class="w-full h-48 object-cover" loading="lazy" decoding="async">
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-5">
+                            <i class="fas fa-tooth text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark mb-3">Root Canal Treatment in Nairobi</h3>
+                        <p class="text-gray-600 mb-4">Gentle root canal therapy in Nairobi to relieve tooth pain, remove infection, and preserve your natural tooth.</p>
+                        <ul class="text-gray-600 text-sm mb-4">
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Tooth pain diagnosis</li>
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Infection removal and sealing</li>
+                            <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Filling or crown restoration</li>
+                        </ul>
+                        <a href="root-canal-treatment" class="text-primary font-medium hover:text-secondary transition-colors">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Service 9 -->
+                <div class="service-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 animate-on-scroll">
+                    <img src="service-fillings-extractions-nairobi-graphic.png" alt="Dental fillings and extractions treatment graphic in Nairobi CBD" class="w-full h-48 object-cover" loading="lazy" decoding="async">
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-5">
+                            <i class="fas fa-teeth-open text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark mb-3">Dental Fillings &amp; Extractions in Nairobi</h3>
+                        <p class="text-gray-600 mb-4">Repair cavities with tooth-colored fillings or remove severely damaged teeth safely when extraction is necessary.</p>
+                        <ul class="text-gray-600 text-sm mb-4">
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Tooth-colored fillings</li>
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Safe tooth extractions</li>
+                            <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Recovery and aftercare</li>
+                        </ul>
+                        <a href="dental-fillings-extractions" class="text-primary font-medium hover:text-secondary transition-colors">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Service 10 -->
+                <div class="service-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 animate-on-scroll">
+                    <img src="service-crowns-bridgework-nairobi-graphic.png" alt="Dental crowns and bridgework model in Nairobi CBD" class="w-full h-48 object-cover" loading="lazy" decoding="async">
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-5">
+                            <i class="fas fa-teeth text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark mb-3">Dental Crowns &amp; Bridgework in Nairobi</h3>
+                        <p class="text-gray-600 mb-4">Restore damaged teeth and replace missing teeth with durable, natural-looking crowns and dental bridges.</p>
+                        <ul class="text-gray-600 text-sm mb-4">
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Crowns for weak teeth</li>
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Bridgework for missing teeth</li>
+                            <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Natural-looking restoration</li>
+                        </ul>
+                        <a href="dental-crowns-bridgework" class="text-primary font-medium hover:text-secondary transition-colors">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 animate-on-scroll">
+                    <img src="service-dentures-nairobi.png" alt="Denture patient holding denture case in Nairobi CBD" class="w-full h-48 object-cover" loading="lazy" decoding="async">
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-5">
+                            <i class="fas fa-teeth text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark mb-3">Dentures in Nairobi</h3>
+                        <p class="text-gray-600 mb-4">Custom full, partial, immediate, and flexible dentures designed to restore chewing, speech, and smile confidence.</p>
+                        <ul class="text-gray-600 text-sm mb-4">
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Full and partial dentures</li>
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Comfortable fitting process</li>
+                            <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Natural-looking tooth replacement</li>
+                        </ul>
+                        <a href="dentures" class="text-primary font-medium hover:text-secondary transition-colors">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 animate-on-scroll">
+                    <img src="service-dental-splinting-nairobi.png" alt="Dental splinting patient with splinted teeth model in Nairobi CBD" class="w-full h-48 object-cover" loading="lazy" decoding="async">
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-5">
+                            <i class="fas fa-link text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark mb-3">Dental Splinting in Nairobi</h3>
+                        <p class="text-gray-600 mb-4">Stabilize loose or shifting teeth caused by gum disease, trauma, bone loss, or bite pressure.</p>
+                        <ul class="text-gray-600 text-sm mb-4">
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Loose tooth stabilization</li>
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Minimally invasive support</li>
+                            <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Gum health follow-up care</li>
+                        </ul>
+                        <a href="dental-splinting" class="text-primary font-medium hover:text-secondary transition-colors">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Service 11 -->
+                <div class="service-card bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 animate-on-scroll">
+                    <img src="service-pediatric-dentistry-nairobi.png" alt="Child patient for pediatric dentistry in Nairobi CBD" class="w-full h-48 object-cover" loading="lazy" decoding="async">
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-5">
+                            <i class="fas fa-child text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark mb-3">Pediatric Dentistry in Nairobi</h3>
+                        <p class="text-gray-600 mb-4">Gentle child dental care in Nairobi CBD for checkups, prevention, fillings, tooth development, and oral hygiene habits.</p>
+                        <ul class="text-gray-600 text-sm mb-4">
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Child dental checkups</li>
+                            <li class="flex items-center mb-1"><i class="fas fa-check text-accent mr-2"></i> Preventive care and education</li>
+                            <li class="flex items-center"><i class="fas fa-check text-accent mr-2"></i> Growth and bite monitoring</li>
+                        </ul>
+                        <a href="pediatric-dentistry" class="text-primary font-medium hover:text-secondary transition-colors">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-[1fr_18rem] gap-8 items-end mb-12">
+                <div class="text-center lg:text-left animate-on-scroll">
+                    <p class="text-sm uppercase tracking-widest text-accent font-semibold mb-3">Real Google reviews</p>
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Patient Testimonials</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto lg:mx-0">Real patient feedback shared on Google for Seromba Dentals Clinic Nairobi.</p>
+                    <div class="w-20 h-1 bg-accent mx-auto lg:mx-0 mt-4"></div>
+                </div>
+
+                <div class="bg-light border border-blue-100 rounded-xl shadow-md p-6 animate-on-scroll">
+                    <div class="flex items-end justify-between gap-4 mb-3">
+                        <div>
+                            <p class="text-sm text-gray-500 mb-1">Google rating</p>
+                            <div class="text-5xl font-bold text-dark leading-none">5.0</div>
+                        </div>
+                        <div class="text-right">
+                            <div class="flex text-accent text-lg mb-1" aria-label="5 out of 5 stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="text-sm text-gray-600">51 reviews</p>
+                        </div>
+                    </div>
+                    <a href="https://share.google/QpjayL1ojf5CCCcMo" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-primary font-semibold hover:text-secondary transition-colors">
+                        <i class="fab fa-google mr-2"></i>
+                        View on Google
+                    </a>
+                </div>
+            </div>
+
+            <div class="max-w-4xl mx-auto animate-on-scroll">
+                <div class="overflow-hidden">
+                    <div id="google-review-track" class="flex transition-transform duration-500 ease-in-out"></div>
+                </div>
+
+                <div class="flex items-center justify-center gap-4 mt-6">
+                    <button id="google-review-prev" type="button" class="google-review-control w-11 h-11 rounded-full bg-white text-primary shadow-md hover:bg-primary hover:text-white transition-colors flex items-center justify-center" aria-label="Previous patient testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+
+                    <span id="google-review-counter" class="text-sm font-semibold text-gray-600 min-w-[4.5rem] text-center"></span>
+
+                    <button id="google-review-next" type="button" class="google-review-control w-11 h-11 rounded-full bg-white text-primary shadow-md hover:bg-primary hover:text-white transition-colors flex items-center justify-center" aria-label="Next patient testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Corporate Partners Section -->
+    <section id="partners" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16 animate-on-scroll">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Our Corporate Partners</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">We're proud to collaborate with leading healthcare, insurance, and corporate partners that support accessible dental care in Nairobi.</p>
+                <div class="w-20 h-1 bg-accent mx-auto mt-4"></div>
+            </div>
+            
+            <!-- Partners Carousel -->
+            <div class="partners-carousel-container overflow-hidden relative">
+                <div class="partners-carousel flex animate-scroll-right">
+                    <!-- Original set of all partners -->
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="old%20mutual.png" alt="Old Mutual" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="mtiba.png" alt="Mtiba" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="Kenbright.png" alt="Kenbright" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="britam.png" alt="Britam Insurance" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="AAR-Insurance.jpg" alt="AAR Insurance" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="APA-Insurance.png" alt="APA Insurance" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="pacis.png" alt="Pacis Insurance Company Ltd" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="Kenya-Airways.png" alt="Kenya Airways" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="pioneer.png" alt="Pioneer" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6 bg-white rounded-lg p-1 md:p-2">
+                        <img src="mua.png" alt="MUA" class="h-12 md:h-20 w-12 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="lucent.png" alt="Lucent" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6 bg-white rounded-lg p-1 md:p-2">
+                        <img src="eabl.png" alt="EABL" class="h-12 md:h-20 w-12 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="heritage.jpg" alt="Heritage Insurance" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="mtn.png" alt="MTN" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="liaison.png" alt="Liaison Group" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="kenyanalliance.png" alt="Kenyan Alliance" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="cic.png" alt="CIC Insurance" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="star.png" alt="Star Health" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="equity-group.jpg" alt="Equity Group" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <!-- Duplicate set for seamless infinite scroll -->
+                     
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="old%20mutual.png" alt="Old Mutual" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="pacis.png" alt="Pacis Insurance Company Ltd" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="mtiba.png" alt="Mtiba" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="Kenbright.png" alt="Kenbright" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="britam.png" alt="Britam Insurance" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="AAR-Insurance.jpg" alt="AAR Insurance" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="APA-Insurance.png" alt="APA Insurance" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="Kenya-Airways.png" alt="Kenya Airways" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="pioneer.png" alt="Pioneer" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6 bg-white rounded-lg p-1 md:p-2">
+                        <img src="mua.png" alt="MUA" class="h-12 md:h-20 w-12 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="lucent.png" alt="Lucent" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6 bg-white rounded-lg p-1 md:p-2">
+                        <img src="eabl.png" alt="EABL" class="h-12 md:h-20 w-12 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="heritage.jpg" alt="Heritage Insurance" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="mtn.png" alt="MTN" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="liaison.png" alt="Liaison Group" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="kenyanalliance.png" alt="Kenyan Alliance" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="cic.png" alt="CIC Insurance" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="star.png" alt="Star Health" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                    <div class="partner-item flex-shrink-0 mx-0 md:mx-6">
+                        <img src="equity-group.jpg" alt="Equity Group" class="h-14 md:h-24 w-14 md:w-auto object-contain hover:scale-105 transition-all duration-300" loading="lazy" decoding="async">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-light">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16 animate-on-scroll">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Contact Us</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">WhatsApp or call us for fast appointment support, service questions, and directions to our Nairobi CBD clinic.</p>
+                <div class="w-20 h-1 bg-accent mx-auto mt-4"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+                <div class="order-2 lg:order-1 animate-on-scroll">
+                    <div class="bg-white rounded-xl shadow-lg p-6 lg:p-8">
+                        <h3 class="text-xl lg:text-2xl font-bold text-dark mb-6">Get in Touch</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-blue-100 flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-map-marker-alt text-primary text-sm lg:text-base"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-dark text-sm lg:text-base">Our Location</h4>
+                                    <p class="text-gray-700 text-sm lg:text-base">Corner House, 5th Floor, Kimathi St., Nairobi</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-blue-100 flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-phone-alt text-primary text-sm lg:text-base"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-dark text-sm lg:text-base">Phone Numbers</h4>
+                                    <p class="text-gray-700 text-sm lg:text-base">+254 712 858 686</p>
+                                    
+                                    <div class="flex flex-col sm:flex-row gap-3 mt-4">
+                                        <a href="https://wa.me/254712858686?text=Hello%20Seromba%20Dentals%20Clinic%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener" class="inline-flex items-center justify-center bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full text-sm font-semibold transition-colors">
+                                            <i class="fab fa-whatsapp mr-2"></i> WhatsApp Us
+                                        </a>
+                                        <a href="tel:+254712858686" class="inline-flex items-center justify-center bg-primary hover:bg-secondary text-white px-4 py-2 rounded-full text-sm font-semibold transition-colors">
+                                            <i class="fas fa-phone-alt mr-2"></i> Call Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-blue-100 flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-clock text-primary text-sm lg:text-base"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-dark text-sm lg:text-base">Opening Hours</h4>
+                                    <p class="text-gray-700 text-sm lg:text-base">Monday - Friday: 8:00 AM - 6:00 PM</p>
+                                    <p class="text-gray-700 text-sm lg:text-base">Saturday: 8:00 AM - 3:00 PM</p>
+                                    <p class="text-gray-700 text-sm lg:text-base">Sundays & Public Holidays: Closed</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8">
+                            <h4 class="font-bold text-dark mb-4 text-sm lg:text-base">Follow Us</h4>
+                            <div class="flex space-x-4">
+                                <a href="https://www.facebook.com/share/16JurNQAEh/" target="_blank" class="w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-primary flex items-center justify-center text-white hover:bg-secondary transition-colors">
+                                    <i class="fab fa-facebook-f text-sm lg:text-base"></i>
+                                </a>
+                                <a href="https://www.instagram.com/serombadentals?igsh=bmVqMnN2ajc2Z2Zn" target="_blank" class="w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-primary flex items-center justify-center text-white hover:bg-secondary transition-colors">
+                                    <i class="fab fa-instagram text-sm lg:text-base"></i>
+                                </a>
+                                <a href="https://x.com/serombadental?t=UkmbDeaOy0f5EqrZqVUY3w&amp;s=09" target="_blank" class="w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-primary flex items-center justify-center text-white hover:bg-secondary transition-colors">
+                                    <i class="fab fa-twitter text-sm lg:text-base"></i>
+                                </a>
+                                <a href="https://www.tiktok.com/@serombadentals?_t=ZM-8yURW93xPvS&amp;_r=1" target="_blank" class="w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-primary flex items-center justify-center text-white hover:bg-secondary transition-colors">
+                                    <i class="fab fa-tiktok text-sm lg:text-base"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="order-1 lg:order-2 animate-on-scroll">
+                    <div class="bg-white rounded-xl shadow-lg p-6 lg:p-8 mb-6 lg:mb-8">
+                        <h3 class="text-xl lg:text-2xl font-bold text-dark mb-6">Book an Appointment</h3>
+                        <p class="text-gray-600 text-sm lg:text-base mb-5">For the fastest response, book through WhatsApp or call the clinic. You can still leave your details below and choose how we should reach you.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+                            <a href="https://wa.me/254712858686?text=Hello%20Seromba%20Dentals%20Clinic%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener" class="flex items-center justify-center bg-green-500 hover:bg-green-600 text-white font-bold px-4 py-3 rounded-lg transition-all transform hover:scale-[1.02]">
+                                <i class="fab fa-whatsapp mr-2"></i> WhatsApp Booking
+                            </a>
+                            <a href="tel:+254712858686" class="flex items-center justify-center bg-primary hover:bg-secondary text-white font-bold px-4 py-3 rounded-lg transition-all transform hover:scale-[1.02]">
+                                <i class="fas fa-phone-alt mr-2"></i> Call Clinic
+                            </a>
+                        </div>
+                        
+                        <form class="space-y-4 lg:space-y-6">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
+                                <div>
+                                    <label class="block text-gray-700 mb-2 text-sm lg:text-base">First Name</label>
+                                    <input type="text" class="w-full px-3 py-2 lg:px-4 lg:py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-sm lg:text-base">
+                                </div>
+                                <div>
+                                    <label class="block text-gray-700 mb-2 text-sm lg:text-base">Last Name</label>
+                                    <input type="text" class="w-full px-3 py-2 lg:px-4 lg:py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-sm lg:text-base">
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-gray-700 mb-2 text-sm lg:text-base">Phone / WhatsApp Number</label>
+                                <input type="tel" placeholder="+254 712 858 686" autocomplete="tel" class="w-full px-3 py-2 lg:px-4 lg:py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-sm lg:text-base">
+                            </div>
+
+                            <div>
+                                <label class="block text-gray-700 mb-2 text-sm lg:text-base">Preferred Contact Method</label>
+                                <select class="w-full px-3 py-2 lg:px-4 lg:py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-sm lg:text-base">
+                                    <option>WhatsApp me</option>
+                                    <option>Call me</option>
+                                    <option>Either WhatsApp or Call</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="block text-gray-700 mb-2 text-sm lg:text-base">Email <span class="text-gray-400">(optional)</span></label>
+                                <input type="email" autocomplete="email" class="w-full px-3 py-2 lg:px-4 lg:py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-sm lg:text-base">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-gray-700 mb-2 text-sm lg:text-base">Service</label>
+                                <select class="w-full px-3 py-2 lg:px-4 lg:py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-sm lg:text-base">
+                                    <option>Select a service</option>
+                                    <option>Teeth Whitening</option>
+                                    <option>Dental Implants</option>
+                                    <option>Orthodontics</option>
+                                    <option>Cosmetic Dentistry</option>
+                                    <option>Periodontal Care</option>
+                                    <option>Dental &amp; Oral Examinations</option>
+                                    <option>Dental X-Rays</option>
+                                    <option>Pediatric Dentistry</option>
+                                    <option>Dental Fillings &amp; Extractions</option>
+                                    <option>Root Canal Treatment</option>
+                                    <option>Dental Crowns &amp; Bridgework</option>
+                                    <option>Surgical Implant Placement</option>
+                                    <option>Dentures</option>
+                                    <option>Dental Splinting</option>
+                                    <option>CONSULTATION</option>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-gray-700 mb-2 text-sm lg:text-base">Preferred Date</label>
+                                <input type="date" class="w-full px-3 py-2 lg:px-4 lg:py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-sm lg:text-base">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-gray-700 mb-2 text-sm lg:text-base">Preferred Time</label>
+                                <select class="w-full px-3 py-2 lg:px-4 lg:py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-sm lg:text-base">
+                                    <option>Select a time</option>
+                                    <option>8:00 AM - 9:00 AM</option>
+                                    <option>9:00 AM - 10:00 AM</option>
+                                    <option>10:00 AM - 11:00 AM</option>
+                                    <option>11:00 AM - 12:00 PM</option>
+                                    <option>12:00 PM - 1:00 PM</option>
+                                    <option>1:00 PM - 2:00 PM</option>
+                                    <option>2:00 PM - 3:00 PM</option>
+                                    <option>3:00 PM - 4:00 PM</option>
+                                    <option>4:00 PM - 5:00 PM</option>
+                                    <option>5:00 PM - 6:00 PM</option>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-gray-700 mb-2 text-sm lg:text-base">Message</label>
+                                <textarea rows="3" class="w-full px-3 py-2 lg:px-4 lg:py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-sm lg:text-base"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-primary hover:bg-secondary text-white font-bold py-3 lg:py-4 rounded-lg transition-all transform hover:scale-[1.02] text-sm lg:text-base">
+                                Request Appointment Callback
+                            </button>
+                        </form>
+                    </div>
+                    
+                    <div class="rounded-xl overflow-hidden shadow-lg animate-on-scroll">
+                        <div class="map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.816872392403!2d36.82012431475399!3d-1.286381999063234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d40a4a5d8f%3A0x2a1c4c4c4c4c4c4c!2sCorner%20House%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1650000000000!5m2!1sen!2ske" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div>
+                    <div class="flex items-center mb-6">
+                        <div class="w-20 h-16 bg-white flex items-center justify-center p-2">
+                            <img src="logo.png" alt="Seromba Dentals Clinic Logo" class="w-16 h-12 object-contain" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                    <p class="text-gray-400 mb-6">Providing modern dental care with advanced technology and a compassionate approach in Nairobi CBD.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/share/16JurNQAEh/" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-primary transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/serombadentals?igsh=bmVqMnN2ajc2Z2Zn" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-primary transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://x.com/serombadental?t=UkmbDeaOy0f5EqrZqVUY3w&amp;s=09" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-primary transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@serombadentals?_t=ZM-8yURW93xPvS&amp;_r=1" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-primary transition-colors">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-xl font-bold mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition-colors">Services</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors">Testimonials</a></li>
+                        <li><a href="calendar" class="text-gray-400 hover:text-white transition-colors">Calendar</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-xl font-bold mb-6">Our Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="teeth-whitening" class="text-gray-400 hover:text-white transition-colors">Teeth Whitening</a></li>
+                        <li><a href="dental-implants" class="text-gray-400 hover:text-white transition-colors">Dental Implants</a></li>
+                        <li><a href="orthodontics" class="text-gray-400 hover:text-white transition-colors">Orthodontics</a></li>
+                        <li><a href="cosmetic-dentistry" class="text-gray-400 hover:text-white transition-colors">Cosmetic Dentistry</a></li>
+                        <li><a href="periodontal-care" class="text-gray-400 hover:text-white transition-colors">Periodontal Care</a></li>
+                        <li><a href="dental-examinations" class="text-gray-400 hover:text-white transition-colors">Dental Examinations</a></li>
+                        <li><a href="dental-x-rays" class="text-gray-400 hover:text-white transition-colors">Dental X-Rays</a></li>
+                        <li><a href="root-canal-treatment" class="text-gray-400 hover:text-white transition-colors">Root Canal Treatment</a></li>
+                        <li><a href="dental-fillings-extractions" class="text-gray-400 hover:text-white transition-colors">Fillings &amp; Extractions</a></li>
+                        <li><a href="dental-crowns-bridgework" class="text-gray-400 hover:text-white transition-colors">Crowns &amp; Bridgework</a></li>
+                        <li><a href="surgical-implant-placement" class="text-gray-400 hover:text-white transition-colors">Surgical Implant Placement</a></li>
+                        <li><a href="dentures" class="text-gray-400 hover:text-white transition-colors">Dentures</a></li>
+                        <li><a href="dental-splinting" class="text-gray-400 hover:text-white transition-colors">Dental Splinting</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-xl font-bold mb-6">Contact Info</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-primary mt-1 mr-3"></i>
+                            <span>Corner House, 5th Floor, Kimathi St., Nairobi</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt text-primary mt-1 mr-3"></i>
+                            <div>
+                                <p>+254 712 858 686</p>
+                                
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope text-primary mt-1 mr-3"></i>
+                            <span><a href="mailto:serombadentals@gmail.com">serombadentals@gmail.com</a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-500">
+                <p>&copy; <span data-footer-date></span> Seromba Dentals. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.remove('hidden');
+            } else {
+                mobileMenu.classList.add('hidden');
+            }
+        }
+
+        // Scroll to contact section
+        function scrollToContact() {
+            // Redirect to calendar page
+            window.location.href = 'calendar';
+        }
+
+        // Scroll to services section
+        function scrollToServices() {
+            document.getElementById('services').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        const googleReviews = [
+            {
+                name: "Dickson Muguru",
+                meta: "Local Guide - 37 reviews - 9 photos",
+                dateISO: "2026-05-16",
+                rating: 5,
+                text: "Kind gentle and professional"
+            },
+            {
+                name: "Clare mutw'ale",
+                meta: "1 review",
+                dateISO: "2026-05-16",
+                rating: 5
+            },
+            {
+                name: "MIRIAM A. OKWOMI",
+                meta: "1 review",
+                dateISO: "2026-05-16",
+                edited: true,
+                rating: 5,
+                text: "Excellent dental service with professional and caring staff. The dentist explained every procedure clearly and made me feel comfortable throughout the visit... I recommend"
+            },
+            {
+                name: "edith mburu",
+                meta: "1 review",
+                dateISO: "2026-05-16",
+                rating: 5,
+                text: "Excellent"
+            },
+            {
+                name: "Ambrose Munguti",
+                meta: "Local Guide - 17 reviews - 1 photo",
+                dateISO: "2026-05-16",
+                rating: 5,
+                text: "Excellent service.... The entire team is warm, compassionate and very welcoming. Absolutely top-notch service.!"
+            },
+            {
+                name: "C M",
+                meta: "3 reviews - 3 photos",
+                dateISO: "2026-05-16",
+                rating: 5,
+                text: "Excellent service, root canal experience"
+            },
+            {
+                name: "Markjames Morara",
+                meta: "1 review",
+                dateISO: "2026-05-16",
+                edited: true,
+                rating: 5,
+                text: "The dental team made me feel completely at ease. They explained every step of my root canal and were very attentive to my comfort throughout. The office is spotless, and I didn't have to wait past my appointment time. Highly recommend for anyone with dental queries."
+            },
+            {
+                name: "donatta munyao",
+                meta: "1 review",
+                dateISO: "2026-05-16",
+                edited: true,
+                rating: 5,
+                text: "Simply the best dental experience ever. Thank you."
+            },
+            {
+                name: "Beverl Bevah",
+                meta: "Local Guide - 97 reviews",
+                dateISO: "2026-05-09",
+                edited: true,
+                rating: 5
+            },
+            {
+                name: "kelvin karanja",
+                meta: "1 review",
+                dateISO: "2026-05-09",
+                rating: 5,
+                text: "I recently visited Seromba Dentals, and the experience genuinely exceeded my expectations. From the moment I walked in, the team made me feel calm and well taken care of. The clinic is spotless, modern, and equipped with technology that immediately gives you confidence in the quality of care.\n\nWhat stood out most was how clearly everything was explained, no rush, no pressure, just honest guidance and a gentle approach. The procedure itself was surprisingly comfortable, and the results were better than I imagined.\n\nIt's rare to find a dental clinic that combines professionalism, warmth, and precision this well. Seromba Dentals has definitely earned my trust."
+            },
+            {
+                name: "Purity Wanza",
+                meta: "1 review",
+                dateISO: "2026-05-09",
+                rating: 5,
+                text: "I had a really great experience at Seromba dental clinic! The staff were warm and professional, and the dentist took time to explain everything clearly, which made me feel at ease. The service was smooth, gentle, and efficient--I honestly couldn't have asked for better care. Highly recommend them if you're looking for quality dental services!"
+            },
+            {
+                name: "Beth Thuita",
+                meta: "3 reviews",
+                dateISO: "2026-05-03",
+                rating: 5,
+                text: "Awesome experience"
+            },
+            {
+                name: "Vivian Ndunge",
+                meta: "1 review",
+                dateISO: "2026-05-03",
+                rating: 5,
+                text: "I never thought dentists were good until i walked into seromba dentalss. I had quite the experience, thank you for your lovely services"
+            },
+            {
+                name: "Bree Mwikali",
+                meta: "1 review",
+                dateISO: "2026-05-03",
+                rating: 5,
+                text: "The service was very great from the moment I walked in to the time I left. I got my teeth washed and let me tell you ... nashindana na jua kuwaka nikismile."
+            },
+            {
+                name: "Purity Ndoro",
+                meta: "1 review",
+                dateISO: "2026-04-30",
+                rating: 5,
+                text: "They are very professional and they care for their clients. I love there services 10/10"
+            },
+            {
+                name: "CAROLINE NJOMO",
+                meta: "2 reviews",
+                dateISO: "2026-04-30",
+                rating: 5,
+                text: "Professional and friendly dental care. I recommend."
+            },
+            {
+                name: "rose kimeu",
+                meta: "2 reviews - 1 photo",
+                dateISO: "2025-05-30",
+                rating: 5,
+                text: "Excellent attention."
+            },
+            {
+                name: "Nela Kirui",
+                meta: "1 review",
+                dateISO: "2024-05-30",
+                rating: 5,
+                text: "Friendly staff with high levels of professionalism. I fell and chipped my tooth and I thought that was it. I was stuck with a crooked smile, but thanks to these guys, I have my natural smile back after they fixed my tooth. Thank you."
+            },
+            {
+                name: "MARY GAKUYA",
+                meta: "1 review",
+                dateISO: "2024-05-30",
+                rating: 5,
+                text: "Very friendly workers and amazing services..I would highly recommend"
+            },
+            {
+                name: "Patriciah Loko",
+                meta: "1 review",
+                dateISO: "2024-05-30",
+                rating: 5,
+                text: "I can now smile again. Thank you for restoring my teeth, white kama snow."
+            },
+            {
+                name: "Daniel Abuga",
+                meta: "1 review",
+                dateISO: "2024-05-30",
+                rating: 5,
+                text: "Amazing services. Went for clinic, friendly staff and affordable services. Greatly recommend."
+            },
+            {
+                name: "Carol Wanja",
+                meta: "1 review",
+                dateISO: "2024-05-30",
+                rating: 5,
+                text: "I can now afford a smile. Nice place to get dental services"
+            },
+            {
+                name: "DORCAS ABUGA",
+                meta: "1 review",
+                dateISO: "2024-05-30",
+                rating: 5,
+                text: "I got my braces at a good price and I love them. I recommend"
+            },
+            {
+                name: "Essay Writer",
+                meta: "1 review",
+                dateISO: "2024-05-30",
+                rating: 5,
+                text: "Excellent services. I recommend"
+            },
+            {
+                name: "Ricky Smith",
+                meta: "1 review",
+                dateISO: "2024-05-30",
+                rating: 5,
+                text: "Good services. I recommend"
+            }
+        ];
+        const reviewAvatarColors = [
+            "bg-green-600",
+            "bg-blue-600",
+            "bg-purple-600",
+            "bg-pink-600",
+            "bg-cyan-600",
+            "bg-emerald-600",
+            "bg-indigo-600",
+            "bg-rose-600"
+        ];
+        let googleReviewIndex = 0;
+
+        function escapeHTML(value) {
+            return String(value)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#039;');
+        }
+
+        function renderStars(rating) {
+            const safeRating = Math.max(0, Math.min(5, Number(rating) || 0));
+            return Array.from({ length: 5 }, (_, index) => {
+                const starClass = index < safeRating ? 'fas fa-star' : 'far fa-star';
+                return `<i class="${starClass}"></i>`;
+            }).join('');
+        }
+
+        function parseReviewDate(dateISO) {
+            const [year, month, day] = String(dateISO).split('-').map(Number);
+            return new Date(year, month - 1, day);
+        }
+
+        function getReviewDaysAgo(dateISO) {
+            if (!dateISO) return null;
+            const today = new Date();
+            const startOfToday = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+            const reviewDate = parseReviewDate(dateISO);
+            return Math.max(0, Math.floor((startOfToday - reviewDate) / 86400000));
+        }
+
+        function pluralize(value, singular) {
+            return `${value} ${singular}${value === 1 ? '' : 's'} ago`;
+        }
+
+        function getReviewTimeline(review) {
+            const daysAgo = getReviewDaysAgo(review.dateISO);
+            if (daysAgo === null) return review.date || '';
+
+            let label;
+            if (daysAgo === 0) {
+                label = 'today';
+            } else if (daysAgo === 1) {
+                label = 'yesterday';
+            } else if (daysAgo < 7) {
+                label = pluralize(daysAgo, 'day');
+            } else if (daysAgo < 28) {
+                label = pluralize(Math.max(1, Math.round(daysAgo / 7)), 'week');
+            } else if (daysAgo < 60) {
+                label = 'a month ago';
+            } else if (daysAgo < 365) {
+                label = pluralize(Math.max(2, Math.round(daysAgo / 30)), 'month');
+            } else {
+                label = pluralize(Math.max(1, Math.floor(daysAgo / 365)), 'year');
+            }
+
+            return review.edited ? `Edited ${label}` : label;
+        }
+
+        function isNewGoogleReview(review) {
+            const daysAgo = getReviewDaysAgo(review.dateISO);
+            return daysAgo !== null && daysAgo <= 21;
+        }
+
+        function getSortedGoogleReviews() {
+            return googleReviews.slice().sort((first, second) => {
+                return parseReviewDate(second.dateISO) - parseReviewDate(first.dateISO);
+            });
+        }
+
+        function updateGoogleReviewCarousel() {
+            const track = document.getElementById('google-review-track');
+            const prevButton = document.getElementById('google-review-prev');
+            const nextButton = document.getElementById('google-review-next');
+            const counter = document.getElementById('google-review-counter');
+            const reviews = getSortedGoogleReviews();
+            if (!track || !prevButton || !nextButton) return;
+
+            if (googleReviewIndex >= reviews.length) googleReviewIndex = 0;
+            track.style.transform = `translateX(-${googleReviewIndex * 100}%)`;
+            prevButton.disabled = reviews.length <= 1;
+            nextButton.disabled = reviews.length <= 1;
+            if (counter) {
+                counter.textContent = reviews.length ? `${googleReviewIndex + 1} / ${reviews.length}` : '';
+            }
+        }
+
+        function renderGoogleReviews() {
+            const track = document.getElementById('google-review-track');
+            const prevButton = document.getElementById('google-review-prev');
+            const nextButton = document.getElementById('google-review-next');
+            if (!track || !prevButton || !nextButton) return;
+
+            const reviews = getSortedGoogleReviews();
+
+            track.innerHTML = reviews.map((review, index) => {
+                const name = escapeHTML(review.name || 'Google reviewer');
+                const timeline = getReviewTimeline(review);
+                const meta = [review.meta, timeline].filter(Boolean).map(escapeHTML).join(' &bull; ');
+                const newBadge = isNewGoogleReview(review)
+                    ? '<span class="inline-flex items-center px-2 py-0.5 ml-2 rounded border border-gray-300 text-xs font-bold text-dark align-middle">NEW</span>'
+                    : '';
+                const initial = name.trim().charAt(0).toUpperCase() || 'G';
+                const rating = Number(review.rating);
+                const colorClass = reviewAvatarColors[index % reviewAvatarColors.length];
+                const reviewBody = review.text
+                    ? `<p class="patient-review-copy text-gray-700 text-base md:text-lg leading-relaxed italic mb-4 md:mb-6">"${escapeHTML(review.text)}"</p>`
+                    : '<p class="patient-review-copy text-gray-700 text-base md:text-lg leading-relaxed mb-4 md:mb-6">5-star rating left on Google.</p>';
+                return `
+                    <article class="google-review-slide p-1">
+                        <div class="patient-review-card bg-light border border-blue-100 rounded-xl shadow-md p-5 md:p-8">
+                            <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4 md:gap-5 mb-4 md:mb-6">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-11 h-11 md:w-12 md:h-12 rounded-full ${colorClass} text-white font-bold shadow-sm flex items-center justify-center">${initial}</div>
+                                    <div>
+                                        <h3 class="text-lg md:text-xl font-bold text-dark">${name}</h3>
+                                        <p class="text-sm text-gray-500">${meta}${newBadge}</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="flex text-accent text-base md:text-lg md:justify-end" aria-label="${escapeHTML(rating)} out of 5 stars">
+                                        ${renderStars(rating)}
+                                    </div>
+                                    <p class="text-sm text-gray-500 mt-1 md:text-right">Google review</p>
+                                </div>
+                            </div>
+                            ${reviewBody}
+                            <div class="flex items-center text-primary font-semibold text-sm md:text-base">
+                                <i class="fab fa-google mr-2"></i>
+                                <span>Verified Google feedback</span>
+                            </div>
+                        </div>
+                    </article>
+                `;
+            }).join('');
+
+            prevButton.onclick = () => {
+                googleReviewIndex = (googleReviewIndex - 1 + reviews.length) % reviews.length;
+                updateGoogleReviewCarousel();
+            };
+
+            nextButton.onclick = () => {
+                googleReviewIndex = (googleReviewIndex + 1) % reviews.length;
+                updateGoogleReviewCarousel();
+            };
+
+            updateGoogleReviewCarousel();
+        }
+
+        // Animation on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            renderGoogleReviews();
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+            
+            document.querySelectorAll('.animate-on-scroll').forEach(el => {
+                observer.observe(el);
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+    <script src="footer-date.js"></script>
+</body>
+
+<!-- Mirrored from www.serombadentals.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Jun 2026 14:06:24 GMT -->
+</html>
+
+

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.serombadentals.com/surgical-implant-placement by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Jun 2026 14:06:25 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surgical Implant Placement in Nairobi, Kenya | Seromba Dentals Clinic, Nairobi, Kenya</title>
+    <meta name="description" content="Seromba Dentals Clinic, Nairobi, Kenya provides surgical implant placement in Nairobi CBD for stable, natural-looking tooth replacement and long-term implant support.">
+    <link rel="icon" href="logo.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0077b6',
+                        secondary: '#00b4d8',
+                        accent: '#ff9e00',
+                        light: '#f8f9fa',
+                        dark: '#212529'
+                    },
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
+        .hero-bg {
+            background:
+                linear-gradient(135deg, rgba(0,119,182,0.88) 0%, rgba(0,180,216,0.74) 100%),
+                url('service-surgical-implant-placement-nairobi.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .floating { animation: float 3s ease-in-out infinite; }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Dentist",
+        "name": "Seromba Dentals Clinic",
+        "image": "../service-surgical-implant-placement-nairobi.png",
+        "telephone": "+254 712 858 686",
+        "email": "serombadentals@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Corner House, 5th Floor, Kimathi Street",
+            "addressLocality": "Nairobi",
+            "addressCountry": "KE"
+        },
+        "areaServed": ["Nairobi CBD", "Nairobi", "Kenya"],
+        "medicalSpecialty": "Dentistry",
+        "makesOffer": {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Surgical Implant Placement in Nairobi, Kenya",
+                "description": "Dental implant surgery for stable tooth replacement and long-term oral function."
+            }
+        }
+    }
+    </script>
+</head>
+<body class="bg-light">
+    <div class="contact-action-dock" aria-label="Quick contact options">
+        <a href="https://wa.me/254712858686?text=Hello%20Seromba%20Dentals%20Clinic%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener" class="contact-action contact-action--whatsapp">
+            <span class="contact-action__icon"><i class="fab fa-whatsapp"></i></span>
+            <span class="contact-action__text"><strong>WhatsApp</strong><small>Fast booking</small></span>
+        </a>
+        <a href="tel:+254712858686" class="contact-action contact-action--call">
+            <span class="contact-action__icon"><i class="fas fa-phone-alt"></i></span>
+            <span class="contact-action__text"><strong>Call Clinic</strong><small>Speak to us</small></span>
+        </a>
+    </div>
+
+    <header class="sticky top-0 z-40 bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="h-12 flex items-center justify-center">
+                <img src="logo.png" alt="Seromba Dentals Clinic Logo" class="h-12 w-auto object-contain" loading="lazy" decoding="async">
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-dark hover:text-primary font-medium transition-colors">Home</a>
+                <a href="index.html#about" class="text-dark hover:text-primary font-medium transition-colors">About</a>
+                <a href="index.html#services" class="text-dark hover:text-primary font-medium transition-colors">Services</a>
+                <a href="index.html#testimonials" class="text-dark hover:text-primary font-medium transition-colors">Testimonials</a>
+                <a href="index.html#contact" class="text-dark hover:text-primary font-medium transition-colors">Contact</a>
+            </nav>
+            <div class="flex items-center space-x-3">
+                <a href="https://wa.me/254712858686?text=Hello%20Seromba%20Dentals%20Clinic%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener" class="hidden lg:inline-flex items-center bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full font-medium transition-all transform hover:scale-105">
+                    <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+                </a>
+                <a href="tel:+254712858686" class="hidden md:inline-flex items-center bg-primary hover:bg-secondary text-white px-5 py-2 rounded-full font-medium transition-all transform hover:scale-105">
+                    <i class="fas fa-phone-alt mr-2"></i> Call
+                </a>
+                <a href="calendar" class="hidden xl:inline-flex items-center border border-primary text-primary hover:bg-primary hover:text-white px-5 py-2 rounded-full font-medium transition-all">
+                    Calendar
+                </a>
+                <button onclick="toggleMobileMenu()" id="mobile-menu-btn" class="md:hidden text-dark p-2">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t shadow-lg">
+            <div class="container mx-auto px-4 py-4">
+                <nav class="flex flex-col space-y-4">
+                    <a href="index.html" onclick="toggleMobileMenu()" class="text-dark hover:text-primary font-medium transition-colors mobile-nav-link">Home</a>
+                    <a href="index.html#about" onclick="toggleMobileMenu()" class="text-dark hover:text-primary font-medium transition-colors mobile-nav-link">About</a>
+                    <a href="index.html#services" onclick="toggleMobileMenu()" class="text-dark hover:text-primary font-medium transition-colors mobile-nav-link">Services</a>
+                    <a href="index.html#testimonials" onclick="toggleMobileMenu()" class="text-dark hover:text-primary font-medium transition-colors mobile-nav-link">Testimonials</a>
+                    <a href="index.html#contact" onclick="toggleMobileMenu()" class="text-dark hover:text-primary font-medium transition-colors mobile-nav-link">Contact</a>
+                    <a href="https://wa.me/254712858686?text=Hello%20Seromba%20Dentals%20Clinic%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener" onclick="toggleMobileMenu()" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-medium transition-all transform hover:scale-105 text-center">
+                        <i class="fab fa-whatsapp mr-2"></i> WhatsApp Appointment
+                    </a>
+                    <a href="tel:+254712858686" onclick="toggleMobileMenu()" class="bg-primary hover:bg-secondary text-white px-6 py-3 rounded-full font-medium transition-all transform hover:scale-105 text-center">
+                        <i class="fas fa-phone-alt mr-2"></i> Call Clinic
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-bg text-white py-16 md:py-24">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl md:text-5xl font-bold mb-6">Surgical Implant Placement in Nairobi, Kenya</h1>
+            <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">Replace missing teeth with precise implant surgery designed to restore function, appearance, and smile confidence in Nairobi CBD.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="calendar" class="bg-accent hover:bg-yellow-500 text-dark font-bold px-8 py-4 rounded-full text-lg transition-all transform hover:scale-105 shadow-lg">Book Implant Consultation</a>
+                <a href="tel:+254712858686" class="bg-transparent border-2 border-white hover:bg-white hover:text-primary font-bold px-8 py-4 rounded-full text-lg transition-all">Call the Clinic</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row gap-12 items-center">
+                <div class="lg:w-1/2">
+                    <img src="service-surgical-implant-placement-nairobi.png" alt="Surgical implant placement patient with implant model in Nairobi CBD" class="rounded-xl shadow-lg w-full h-80 md:h-96 object-cover" loading="lazy" decoding="async">
+                </div>
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">Professional Dental Implant Surgery in Nairobi</h2>
+                    <p class="text-gray-700 mb-6 text-lg">Surgical implant placement is the stage where a titanium implant is carefully inserted into the jawbone to act as an artificial tooth root.</p>
+                    <p class="text-gray-700 mb-8">The implant creates a stable base for a crown, bridge, or other replacement tooth. Over time, it integrates with the bone through osseointegration, helping restore long-term strength and function.</p>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-accent text-xl mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-dark mb-2">Fixed Tooth Replacement</h4>
+                                <p class="text-gray-600">Implants are fixed in place and designed to function more like natural teeth than removable dentures.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-accent text-xl mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-dark mb-2">Planned for Stability</h4>
+                                <p class="text-gray-600">Each case is assessed for bone density, gum health, and suitability before treatment begins.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-light">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <h2 class="text-3xl font-bold text-primary mb-6">Who Needs Dental Implants?</h2>
+                    <p class="text-gray-700 mb-6">Dental implants may be recommended for patients who have lost one or more teeth due to decay, injury, gum disease, or long-term tooth damage.</p>
+                    <ul class="space-y-4 text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check text-accent mr-3 mt-1"></i>Missing one tooth or several teeth</li>
+                        <li class="flex items-start"><i class="fas fa-check text-accent mr-3 mt-1"></i>Looking for a permanent alternative to dentures</li>
+                        <li class="flex items-start"><i class="fas fa-check text-accent mr-3 mt-1"></i>Wanting stable support for a crown or bridge</li>
+                        <li class="flex items-start"><i class="fas fa-check text-accent mr-3 mt-1"></i>Healthy enough for planned dental surgery</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <h2 class="text-3xl font-bold text-primary mb-6">Benefits of Dental Implants</h2>
+                    <p class="text-gray-700 mb-4">Implants improve chewing ability, restore natural appearance, and help maintain jawbone structure by reducing bone loss after tooth loss.</p>
+                    <p class="text-gray-700">They do not rely on neighboring teeth for support, which helps preserve surrounding teeth and overall dental health.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">The Implant Placement Procedure</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto">Your treatment is planned carefully before surgery, then completed in stages to support healing and stable results.</p>
+                <div class="w-20 h-1 bg-accent mx-auto mt-4"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="bg-light rounded-xl shadow-lg p-8 text-center">
+                    <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mx-auto mb-6"><span class="text-2xl font-bold text-primary">1</span></div>
+                    <h3 class="font-bold text-dark mb-3">Assessment</h3>
+                    <p class="text-gray-600">We check bone, gum health, oral health, and treatment goals.</p>
+                </div>
+                <div class="bg-light rounded-xl shadow-lg p-8 text-center">
+                    <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mx-auto mb-6"><span class="text-2xl font-bold text-primary">2</span></div>
+                    <h3 class="font-bold text-dark mb-3">Placement</h3>
+                    <p class="text-gray-600">The implant is placed into the jawbone under local anesthesia.</p>
+                </div>
+                <div class="bg-light rounded-xl shadow-lg p-8 text-center">
+                    <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mx-auto mb-6"><span class="text-2xl font-bold text-primary">3</span></div>
+                    <h3 class="font-bold text-dark mb-3">Healing</h3>
+                    <p class="text-gray-600">The implant integrates with the bone over several months.</p>
+                </div>
+                <div class="bg-light rounded-xl shadow-lg p-8 text-center">
+                    <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mx-auto mb-6"><span class="text-2xl font-bold text-primary">4</span></div>
+                    <h3 class="font-bold text-dark mb-3">Restoration</h3>
+                    <p class="text-gray-600">A crown or prosthetic tooth is attached to complete the smile.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-light">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Surgical Implant Placement FAQs</h2>
+                <div class="w-20 h-1 bg-accent mx-auto"></div>
+            </div>
+            <div class="max-w-4xl mx-auto space-y-4">
+                <details class="group bg-white rounded-lg shadow-md overflow-hidden">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-6 font-bold text-dark">
+                        <span>Is implant placement painful?</span>
+                        <i class="fas fa-chevron-down text-primary transition-transform group-open:rotate-180"></i>
+                    </summary>
+                    <p class="px-6 pb-6 text-gray-600">Local anesthesia is used to keep the procedure comfortable. Mild soreness can occur during healing and is managed with aftercare instructions.</p>
+                </details>
+                <details class="group bg-white rounded-lg shadow-md overflow-hidden">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-6 font-bold text-dark">
+                        <span>How long does implant healing take?</span>
+                        <i class="fas fa-chevron-down text-primary transition-transform group-open:rotate-180"></i>
+                    </summary>
+                    <p class="px-6 pb-6 text-gray-600">Healing often takes several months because the implant needs time to integrate with the jawbone before the final restoration is fitted.</p>
+                </details>
+                <details class="group bg-white rounded-lg shadow-md overflow-hidden">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-6 font-bold text-dark">
+                        <span>Are implants better than dentures?</span>
+                        <i class="fas fa-chevron-down text-primary transition-transform group-open:rotate-180"></i>
+                    </summary>
+                    <p class="px-6 pb-6 text-gray-600">Implants offer fixed support and help preserve jawbone, but the best option depends on your bone health, budget, and treatment goals.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-primary text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Book Your Dental Implant Consultation in Nairobi</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">If you are missing teeth and want a permanent replacement option, Seromba Dentals can help you plan the next step.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="calendar" class="bg-accent hover:bg-yellow-500 text-dark font-bold px-8 py-4 rounded-full text-lg transition-all transform hover:scale-105">Book Consultation</a>
+                <a href="tel:+254712858686" class="bg-transparent border-2 border-white hover:bg-white hover:text-primary font-bold px-8 py-4 rounded-full text-lg transition-all">Call Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div>
+                    <div class="flex items-center mb-6">
+                        <div class="w-20 h-16 bg-white flex items-center justify-center p-2">
+                            <img src="logo.png" alt="Seromba Dentals Clinic Logo" class="w-16 h-12 object-contain" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                    <p class="text-gray-400 mb-6">Providing modern dental care with advanced technology and a compassionate approach in Nairobi CBD.</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="index.html#about" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="index.html#services" class="text-gray-400 hover:text-white transition-colors">Services</a></li>
+                        <li><a href="index.html#contact" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-6">Our Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="surgical-implant-placement" class="text-gray-400 hover:text-white transition-colors">Surgical Implant Placement</a></li>
+                        <li><a href="dentures" class="text-gray-400 hover:text-white transition-colors">Dentures</a></li>
+                        <li><a href="dental-splinting" class="text-gray-400 hover:text-white transition-colors">Dental Splinting</a></li>
+                        <li><a href="dental-implants" class="text-gray-400 hover:text-white transition-colors">Dental Implants</a></li>
+                        <li><a href="dental-crowns-bridgework" class="text-gray-400 hover:text-white transition-colors">Crowns &amp; Bridgework</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-6">Contact Info</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start"><i class="fas fa-map-marker-alt text-primary mt-1 mr-3"></i><span>Corner House, 5th Floor, Kimathi St., Nairobi</span></li>
+                        <li class="flex items-start"><i class="fas fa-phone-alt text-primary mt-1 mr-3"></i><div><p>+254 712 858 686</p></div></li>
+                        <li class="flex items-start"><i class="fas fa-envelope text-primary mt-1 mr-3"></i><span><a href="mailto:serombadentals@gmail.com">serombadentals@gmail.com</a></span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-500">
+                <p>&copy; <span data-footer-date></span> Seromba Dentals. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.remove('hidden');
+            } else {
+                mobileMenu.classList.add('hidden');
+            }
+        }
+    </script>
+    <script src="footer-date.js"></script>
+</body>
+
+<!-- Mirrored from www.serombadentals.com/surgical-implant-placement by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Jun 2026 14:06:25 GMT -->
+</html>
+
+
+
+
+

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.serombadentals.com/dental-x-rays by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Jun 2026 14:06:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental X-Rays in Nairobi, Kenya | Seromba Dentals Clinic, Nairobi, Kenya</title>
+    <meta name="description" content="Seromba Dentals Clinic, Nairobi, Kenya provides dental X-rays in Nairobi CBD for hidden decay, infections, bone loss, impacted teeth, braces, implants, and treatment planning.">
+    <link rel="icon" href="logo.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0077b6',
+                        secondary: '#00b4d8',
+                        accent: '#ff9e00',
+                        light: '#f8f9fa',
+                        dark: '#212529'
+                    },
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-bg {
+            background:
+                linear-gradient(135deg, rgba(0,119,182,0.88) 0%, rgba(0,180,216,0.76) 100%),
+                url('service-dental-x-rays-nairobi-graphic.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Dentist",
+        "name": "Seromba Dentals Clinic",
+        "image": "../service-dental-x-rays-nairobi-graphic.png",
+        "telephone": "+254 712 858 686",
+        "email": "serombadentals@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Corner House, 5th Floor, Kimathi Street",
+            "addressLocality": "Nairobi",
+            "addressCountry": "KE"
+        },
+        "areaServed": ["Nairobi CBD", "Nairobi", "Kenya"],
+        "medicalSpecialty": "Dentistry",
+        "makesOffer": {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Dental X-Rays in Nairobi, Kenya",
+                "description": "Digital dental X-rays and diagnostic imaging for hidden decay, infections, bone loss, impacted teeth, braces, implants, and extractions."
+            }
+        }
+    }
+    </script>
+</head>
+<body class="bg-light">
+    <!-- Floating Contact Buttons -->
+    <div class="contact-action-dock" aria-label="Quick contact options">
+        <a href="https://wa.me/254712858686?text=Hello%20Seromba%20Dentals%20Clinic%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener" class="contact-action contact-action--whatsapp">
+            <span class="contact-action__icon"><i class="fab fa-whatsapp"></i></span>
+            <span class="contact-action__text"><strong>WhatsApp</strong><small>Fast booking</small></span>
+        </a>
+        <a href="tel:+254712858686" class="contact-action contact-action--call">
+            <span class="contact-action__icon"><i class="fas fa-phone-alt"></i></span>
+            <span class="contact-action__text"><strong>Call Clinic</strong><small>Speak to us</small></span>
+        </a>
+    </div>
+
+    <!-- Header -->
+    <header class="sticky top-0 z-40 bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="h-12 flex items-center justify-center">
+                    <img src="logo.png" alt="Seromba Dentals Clinic Logo" class="h-12 w-auto object-contain" loading="lazy" decoding="async">
+                </div>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-dark hover:text-primary font-medium transition-colors">Home</a>
+                <a href="index.html#about" class="text-dark hover:text-primary font-medium transition-colors">About</a>
+                <a href="index.html#services" class="text-dark hover:text-primary font-medium transition-colors">Services</a>
+                <a href="index.html#testimonials" class="text-dark hover:text-primary font-medium transition-colors">Testimonials</a>
+                <a href="index.html#contact" class="text-dark hover:text-primary font-medium transition-colors">Contact</a>
+            </nav>
+            
+            <div class="flex items-center space-x-3">
+                <a href="https://wa.me/254712858686?text=Hello%20Seromba%20Dentals%20Clinic%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener" class="hidden lg:inline-flex items-center bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full font-medium transition-all transform hover:scale-105">
+                    <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+                </a>
+                <a href="tel:+254712858686" class="hidden md:inline-flex items-center bg-primary hover:bg-secondary text-white px-5 py-2 rounded-full font-medium transition-all transform hover:scale-105">
+                    <i class="fas fa-phone-alt mr-2"></i> Call
+                </a>
+                <a href="calendar" class="hidden xl:inline-flex items-center border border-primary text-primary hover:bg-primary hover:text-white px-5 py-2 rounded-full font-medium transition-all">
+                    Calendar
+                </a>
+                
+                <button onclick="toggleMobileMenu()" id="mobile-menu-btn" class="md:hidden text-dark p-2">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t shadow-lg">
+            <div class="container mx-auto px-4 py-4">
+                <nav class="flex flex-col space-y-4">
+                    <a href="index.html" onclick="toggleMobileMenu()" class="text-dark hover:text-primary font-medium transition-colors mobile-nav-link">Home</a>
+                    <a href="index.html#about" onclick="toggleMobileMenu()" class="text-dark hover:text-primary font-medium transition-colors mobile-nav-link">About</a>
+                    <a href="index.html#services" onclick="toggleMobileMenu()" class="text-dark hover:text-primary font-medium transition-colors mobile-nav-link">Services</a>
+                    <a href="index.html#testimonials" onclick="toggleMobileMenu()" class="text-dark hover:text-primary font-medium transition-colors mobile-nav-link">Testimonials</a>
+                    <a href="index.html#contact" onclick="toggleMobileMenu()" class="text-dark hover:text-primary font-medium transition-colors mobile-nav-link">Contact</a>
+                    <a href="https://wa.me/254712858686?text=Hello%20Seromba%20Dentals%20Clinic%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener" onclick="toggleMobileMenu()" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-medium transition-all transform hover:scale-105 text-center">
+                        <i class="fab fa-whatsapp mr-2"></i> WhatsApp Appointment
+                    </a>
+                    <a href="tel:+254712858686" onclick="toggleMobileMenu()" class="bg-primary hover:bg-secondary text-white px-6 py-3 rounded-full font-medium transition-all transform hover:scale-105 text-center">
+                        <i class="fas fa-phone-alt mr-2"></i> Call Clinic
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white py-16 md:py-24">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl md:text-5xl font-bold mb-6">Dental X-Rays in Nairobi, Kenya</h1>
+            <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">Get safe, accurate dental imaging in Nairobi CBD to support early detection, diagnosis, and effective treatment planning.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="calendar" class="bg-accent hover:bg-yellow-500 text-dark font-bold px-8 py-4 rounded-full text-lg transition-all transform hover:scale-105 shadow-lg">
+                    Book Dental X-Ray
+                </a>
+                <a href="tel:+254712858686" class="bg-transparent border-2 border-white hover:bg-white hover:text-primary font-bold px-8 py-4 rounded-full text-lg transition-all">
+                    Call the Clinic
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Details -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row gap-12 items-center">
+                <div class="lg:w-1/2">
+                    <img src="service-dental-x-rays-nairobi-graphic.png" alt="Dental X-ray imaging monitor and sensor in Nairobi CBD" class="rounded-xl shadow-lg w-full h-80 md:h-96 object-cover" loading="lazy" decoding="async">
+                </div>
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">Advanced Dental Imaging for Accurate Diagnosis</h2>
+                    <p class="text-gray-700 mb-6 text-lg">Dental X-rays are an essential diagnostic tool that helps dentists see what is happening beneath the surface of your teeth and gums. Many dental problems cannot be seen during a regular oral examination.</p>
+                    <p class="text-gray-700 mb-8">At Seromba Dentals, dental imaging supports early detection of hidden decay, impacted teeth, bone loss, infection, and treatment planning for procedures such as braces, implants, and extractions.</p>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-accent text-xl mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-dark mb-2">Clear Diagnostic Images</h4>
+                                <p class="text-gray-600">Modern dental imaging helps identify problems that are not visible on the surface.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-accent text-xl mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-dark mb-2">Comfortable, Quick Process</h4>
+                                <p class="text-gray-600">The X-ray process is usually fast, simple, and suitable for both adults and children when clinically needed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- X-Ray Types -->
+    <section class="py-20 bg-light">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Types of Dental X-Rays We Offer</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto">We recommend different types of dental X-rays depending on your symptoms, age, oral health history, and treatment needs.</p>
+                <div class="w-20 h-1 bg-accent mx-auto mt-4"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-xl shadow-lg p-8 text-center">
+                    <i class="fas fa-tooth text-primary text-3xl mb-5"></i>
+                    <h3 class="text-xl font-bold text-dark mb-4">Bitewing X-Rays</h3>
+                    <p class="text-gray-600">Used to detect cavities between teeth and monitor bone levels around teeth.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-8 text-center">
+                    <i class="fas fa-search-plus text-primary text-3xl mb-5"></i>
+                    <h3 class="text-xl font-bold text-dark mb-4">Periapical X-Rays</h3>
+                    <p class="text-gray-600">Show the full tooth structure and surrounding bone for root or infection concerns.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-8 text-center">
+                    <i class="fas fa-teeth text-primary text-3xl mb-5"></i>
+                    <h3 class="text-xl font-bold text-dark mb-4">Panoramic X-Rays</h3>
+                    <p class="text-gray-600">Provide a broad view of the mouth, jaw, developing teeth, and tooth position.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-8 text-center">
+                    <i class="fas fa-layer-group text-primary text-3xl mb-5"></i>
+                    <h3 class="text-xl font-bold text-dark mb-4">Occlusal X-Rays</h3>
+                    <p class="text-gray-600">Help assess tooth development, placement, and broader areas of the upper or lower jaw.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Importance -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">Why Dental X-Rays Are Important</h2>
+                    <p class="text-gray-700 mb-6 text-lg">Dental X-rays play a key role in preventive dentistry. They help identify problems early before they become painful or require complex procedures.</p>
+                    <p class="text-gray-700">They are also useful for monitoring ongoing conditions and checking the success of previous treatments.</p>
+                </div>
+                <div class="bg-light rounded-xl shadow-lg p-8">
+                    <h3 class="text-2xl font-bold text-dark mb-6">When You May Need a Dental X-Ray</h3>
+                    <ul class="space-y-4 text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check text-accent mr-3 mt-1"></i>Tooth pain, swelling, or suspected infection</li>
+                        <li class="flex items-start"><i class="fas fa-check text-accent mr-3 mt-1"></i>Hidden decay or cavities between teeth</li>
+                        <li class="flex items-start"><i class="fas fa-check text-accent mr-3 mt-1"></i>Gum disease or bone loss concerns</li>
+                        <li class="flex items-start"><i class="fas fa-check text-accent mr-3 mt-1"></i>Dental trauma or tooth fractures</li>
+                        <li class="flex items-start"><i class="fas fa-check text-accent mr-3 mt-1"></i>Planning for braces, implants, or extractions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety -->
+    <section class="py-20 bg-light">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">Safety and Comfort</h2>
+            <p class="text-gray-700 text-lg max-w-3xl mx-auto mb-10">Our dental X-ray process is designed to keep imaging quick, comfortable, and clinically useful. Protective measures are used where appropriate, and X-rays are recommended only when they support diagnosis or treatment planning.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <i class="fas fa-shield-alt text-accent text-3xl mb-4"></i>
+                    <h3 class="font-bold text-dark mb-3">Patient Safety</h3>
+                    <p class="text-gray-600">Imaging is selected based on clinical need and patient history.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <i class="fas fa-bolt text-accent text-3xl mb-4"></i>
+                    <h3 class="font-bold text-dark mb-3">Fast Imaging</h3>
+                    <p class="text-gray-600">Most dental X-ray appointments are quick and straightforward.</p>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <i class="fas fa-clipboard-check text-accent text-3xl mb-4"></i>
+                    <h3 class="font-bold text-dark mb-3">Treatment Planning</h3>
+                    <p class="text-gray-600">Images help plan care with better precision and confidence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Dental X-Ray FAQs</h2>
+                <div class="w-20 h-1 bg-accent mx-auto"></div>
+            </div>
+            
+            <div class="max-w-4xl mx-auto space-y-4">
+                <details class="group bg-light rounded-lg shadow-md overflow-hidden">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-6 font-bold text-dark">
+                        <span>Are dental X-rays safe?</span>
+                        <i class="fas fa-chevron-down text-primary transition-transform group-open:rotate-180"></i>
+                    </summary>
+                    <p class="px-6 pb-6 text-gray-600">Dental X-rays are recommended only when needed for diagnosis or treatment planning. Protective measures are used where appropriate, and modern dental imaging is designed around patient safety.</p>
+                </details>
+                <details class="group bg-light rounded-lg shadow-md overflow-hidden">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-6 font-bold text-dark">
+                        <span>Why would I need an X-ray if my tooth looks normal?</span>
+                        <i class="fas fa-chevron-down text-primary transition-transform group-open:rotate-180"></i>
+                    </summary>
+                    <p class="px-6 pb-6 text-gray-600">Some problems develop below the surface, including decay between teeth, infection around roots, impacted teeth, and bone loss.</p>
+                </details>
+                <details class="group bg-light rounded-lg shadow-md overflow-hidden">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-6 font-bold text-dark">
+                        <span>Do children need dental X-rays?</span>
+                        <i class="fas fa-chevron-down text-primary transition-transform group-open:rotate-180"></i>
+                    </summary>
+                    <p class="px-6 pb-6 text-gray-600">Children may need X-rays when clinically necessary to monitor tooth development, decay, trauma, or orthodontic concerns.</p>
+                </details>
+                <details class="group bg-light rounded-lg shadow-md overflow-hidden">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-6 font-bold text-dark">
+                        <span>Can X-rays help with implants or braces?</span>
+                        <i class="fas fa-chevron-down text-primary transition-transform group-open:rotate-180"></i>
+                    </summary>
+                    <p class="px-6 pb-6 text-gray-600">Yes. Dental imaging helps assess bone, tooth position, roots, and jaw structure before treatment such as implants, braces, or extractions.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-primary text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Book Your Dental X-Ray in Nairobi</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">Seromba Dentals provides dental imaging, accurate diagnosis, and professional care to support your treatment journey in Nairobi CBD.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="calendar" class="bg-accent hover:bg-yellow-500 text-dark font-bold px-8 py-4 rounded-full text-lg transition-all transform hover:scale-105">
+                    Book Appointment
+                </a>
+                <a href="tel:+254712858686" class="bg-transparent border-2 border-white hover:bg-white hover:text-primary font-bold px-8 py-4 rounded-full text-lg transition-all">
+                    Call Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div>
+                    <div class="flex items-center mb-6">
+                        <div class="w-20 h-16 bg-white flex items-center justify-center p-2">
+                            <img src="logo.png" alt="Seromba Dentals Clinic Logo" class="w-16 h-12 object-contain" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                    <p class="text-gray-400 mb-6">Providing modern dental care with advanced technology and a compassionate approach in Nairobi CBD.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/share/16JurNQAEh/" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-primary transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/serombadentals?igsh=bmVqMnN2ajc2Z2Zn" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-primary transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://x.com/serombadental?t=UkmbDeaOy0f5EqrZqVUY3w&amp;s=09" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-primary transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@serombadentals?_t=ZM-8yURW93xPvS&amp;_r=1" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-primary transition-colors">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-xl font-bold mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="index.html#about" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="index.html#services" class="text-gray-400 hover:text-white transition-colors">Services</a></li>
+                        <li><a href="index.html#contact" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-xl font-bold mb-6">Our Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="dental-x-rays" class="text-gray-400 hover:text-white transition-colors">Dental X-Rays</a></li>
+                        <li><a href="dental-examinations" class="text-gray-400 hover:text-white transition-colors">Dental Examinations</a></li>
+                        <li><a href="periodontal-care" class="text-gray-400 hover:text-white transition-colors">Periodontal Care</a></li>
+                        <li><a href="dental-implants" class="text-gray-400 hover:text-white transition-colors">Dental Implants</a></li>
+                        <li><a href="orthodontics" class="text-gray-400 hover:text-white transition-colors">Orthodontics</a></li>
+                        <li><a href="root-canal-treatment" class="text-gray-400 hover:text-white transition-colors">Root Canal Treatment</a></li>
+                        <li><a href="dental-fillings-extractions" class="text-gray-400 hover:text-white transition-colors">Fillings &amp; Extractions</a></li>
+                        <li><a href="dental-crowns-bridgework" class="text-gray-400 hover:text-white transition-colors">Crowns &amp; Bridgework</a></li>
+                        <li><a href="surgical-implant-placement" class="text-gray-400 hover:text-white transition-colors">Surgical Implant Placement</a></li>
+                        <li><a href="dentures" class="text-gray-400 hover:text-white transition-colors">Dentures</a></li>
+                        <li><a href="dental-splinting" class="text-gray-400 hover:text-white transition-colors">Dental Splinting</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-xl font-bold mb-6">Contact Info</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-primary mt-1 mr-3"></i>
+                            <span>Corner House, 5th Floor, Kimathi St., Nairobi</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt text-primary mt-1 mr-3"></i>
+                            <div>
+                                <p>+254 712 858 686</p>
+                                
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope text-primary mt-1 mr-3"></i>
+                            <span><a href="mailto:serombadentals@gmail.com">serombadentals@gmail.com</a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-500">
+                <p>&copy; <span data-footer-date></span> Seromba Dentals. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.remove('hidden');
+            } else {
+                mobileMenu.classList.add('hidden');
+            }
+        }
+    </script>
+    <script src="footer-date.js"></script>
+</body>
+
+<!-- Mirrored from www.serombadentals.com/dental-x-rays by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Jun 2026 14:06:26 GMT -->
+</html>
+
+
+
+
+

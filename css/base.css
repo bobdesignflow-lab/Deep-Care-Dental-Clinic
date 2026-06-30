@@ -1,0 +1,60 @@
+/* Breakpoints Reference (Mobile First):
+   Mobile (default): < 480px
+   Tablet: >= 480px
+   Desktop: >= 768px
+   Large Desktop: >= 1024px
+   Extra Large: >= 1280px
+*/
+
+/* CSS Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-surface);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: var(--space-4);
+  color: var(--color-text);
+}
+
+h1 { font-size: clamp(var(--text-3xl), 5vw, var(--text-5xl)); }
+h2 { font-size: clamp(var(--text-2xl), 4vw, var(--text-4xl)); font-weight: 600; }
+h3 { font-size: clamp(var(--text-xl), 3vw, var(--text-3xl)); font-weight: 600; }
+h4 { font-size: var(--text-lg); font-weight: 600; }
+h5 { font-size: var(--text-base); font-weight: 600; }
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover, a:focus {
+  color: var(--color-secondary);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul, ol {
+  list-style: none;
+}

@@ -1,0 +1,178 @@
+html {
+    scroll-padding-top: 76px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contact-action-dock {
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    z-index: 60;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.contact-action {
+    min-width: 12rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.85rem 1rem;
+    color: #fff;
+    border-radius: 999px;
+    text-decoration: none;
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.contact-action:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 22px 42px rgba(0, 0, 0, 0.26);
+    filter: saturate(1.08);
+}
+
+.contact-action--whatsapp {
+    background: linear-gradient(135deg, #25d366 0%, #128c4a 100%);
+}
+
+.contact-action--call {
+    background: linear-gradient(135deg, #0077b6 0%, #00b4d8 100%);
+}
+
+.contact-action__icon {
+    width: 2.45rem;
+    height: 2.45rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.18);
+    font-size: 1.15rem;
+}
+
+.contact-action__text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.contact-action__text strong {
+    font-size: 0.98rem;
+}
+
+.contact-action__text small {
+    margin-top: 0.15rem;
+    font-size: 0.74rem;
+    opacity: 0.88;
+}
+
+@media (max-width: 640px) {
+    body {
+        padding-bottom: 5.25rem;
+    }
+
+    .hero-bg {
+        background-position: center top;
+    }
+
+    .hero-bg h1 {
+        font-size: clamp(2rem, 9vw, 3rem);
+        line-height: 1.08;
+    }
+
+    .hero-bg p {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .hero-bg .container {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+
+    .hero-bg a,
+    .hero-bg button {
+        width: 100%;
+        max-width: 22rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .service-card:hover,
+    .testimonial-card:hover {
+        transform: none;
+    }
+
+    .contact-action-dock {
+        left: 0.85rem;
+        right: 0.85rem;
+        bottom: 0.85rem;
+        flex-direction: row;
+        gap: 0.65rem;
+    }
+
+    .contact-action {
+        min-width: 0;
+        flex: 1;
+        justify-content: center;
+        gap: 0.45rem;
+        padding: 0.75rem 0.65rem;
+        border-radius: 1rem;
+    }
+
+    .contact-action__icon {
+        width: 2.15rem;
+        height: 2.15rem;
+        font-size: 1rem;
+    }
+
+    .contact-action__text strong {
+        font-size: 0.82rem;
+    }
+
+    .contact-action__text small {
+        display: none;
+    }
+
+    #calendly-floating-button {
+        display: none;
+    }
+
+    #calendly-floating-button a {
+        width: 3.2rem;
+        height: 3.2rem;
+        padding: 0;
+        justify-content: center;
+    }
+
+    #calendly-floating-button span {
+        display: none;
+    }
+
+    #calendly-floating-button i {
+        margin-right: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .floating,
+    .animate-scroll-right {
+        animation: none !important;
+    }
+
+    .animate-on-scroll {
+        opacity: 1;
+        transform: none;
+    }
+}

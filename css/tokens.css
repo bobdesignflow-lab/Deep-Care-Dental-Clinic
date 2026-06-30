@@ -1,0 +1,37 @@
+:root {
+  /* Colors */
+  --color-primary: #1A56AE;
+  --color-secondary: #4A8FD6;
+  --color-accent: #E0352B;
+  --color-text: #16223A;
+  --color-surface: #FFFFFF;
+  --color-background-alt: #F7F8FA;
+  --color-border: #E3E7EE;
+  --color-success: #2E8B57;
+
+  /* Typography */
+  --font-heading: 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Type Scale (Modular scale ~1.25, base 16px) */
+  --text-xs: 0.8rem;   /* ~12.8px */
+  --text-sm: 0.889rem; /* ~14.2px */
+  --text-base: 1rem;   /* 16px */
+  --text-lg: 1.25rem;  /* 20px */
+  --text-xl: 1.563rem; /* ~25px */
+  --text-2xl: 1.953rem;/* ~31.25px */
+  --text-3xl: 2.441rem;/* ~39px */
+  --text-4xl: 3.052rem;/* ~48.8px */
+  --text-5xl: 3.815rem;/* ~61px */
+
+  /* Spacing Scale */
+  --space-1: 0.25rem;  /* 4px */
+  --space-2: 0.5rem;   /* 8px */
+  --space-3: 0.75rem;  /* 12px */
+  --space-4: 1rem;     /* 16px */
+  --space-6: 1.5rem;   /* 24px */
+  --space-8: 2rem;     /* 32px */
+  --space-12: 3rem;    /* 48px */
+  --space-16: 4rem;    /* 64px */
+  --space-24: 6rem;    /* 96px */
+}
