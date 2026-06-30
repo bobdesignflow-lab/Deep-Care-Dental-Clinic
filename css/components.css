@@ -120,7 +120,7 @@
   font-weight: 500;
 }
 
-.nav-links a:hover, .nav-links a:focus {
+.nav-links a:hover, .nav-links a:focus, .nav-links a[aria-current="page"], .nav-links a.active {
   color: var(--color-primary);
 }
 

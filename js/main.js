@@ -1,4 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // Set Active Navigation State
+  const currentPath = window.location.pathname;
+  const navLinks = document.querySelectorAll('.nav-links a');
+  navLinks.forEach(link => {
+    // Handle local paths or deployed paths robustly
+    const linkPath = new URL(link.href, window.location.href).pathname;
+    
+    // Check exact path match, or if root matches index.html
+    if (currentPath === linkPath || 
+       (currentPath.endsWith('/') && linkPath.endsWith('index.html')) ||
+       (currentPath.endsWith('index.html') && linkPath.endsWith('/'))) {
+      link.setAttribute('aria-current', 'page');
+      link.classList.add('active');
+    }
+  });
+
   // Mobile Navigation Toggle
   const mobileToggle = document.getElementById('mobile-toggle');
   const navMenu = document.getElementById('nav-menu');
