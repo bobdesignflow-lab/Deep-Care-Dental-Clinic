@@ -1,0 +1,283 @@
+/* Reviews Page Specific Styles */
+.reviews-hero {
+  background-color: var(--color-background-alt);
+  padding: var(--space-8) 0;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .reviews-hero {
+    padding: var(--space-12) 0;
+  }
+}
+
+.hero-rating-display {
+  margin-top: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.hero-rating-display .stars {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-1);
+}
+
+.hero-rating-display .stars svg {
+  width: 32px;
+  height: 32px;
+  fill: #FBBC05;
+}
+
+.hero-rating-display .rating-score {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.hero-rating-display .rating-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  color: rgba(22, 34, 58, 0.7);
+  font-size: var(--text-sm);
+}
+
+.hero-rating-display .google-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* 2. Featured Reviews Section */
+.featured-reviews {
+  padding: var(--space-16) 0;
+  background-color: var(--color-surface);
+}
+
+.featured-reviews-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 var(--space-4);
+}
+
+.featured-reviews-container h2 {
+  text-align: center;
+  font-size: var(--text-3xl);
+  margin-bottom: var(--space-8);
+  color: var(--color-text);
+}
+
+.review-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.featured-review-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-6) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.featured-review-card:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 768px) {
+  .featured-review-card {
+    padding: var(--space-8) 0;
+  }
+}
+
+.review-quote-icon {
+  width: 48px;
+  height: 48px;
+  color: var(--color-primary);
+  opacity: 0.2;
+  margin-bottom: var(--space-2);
+}
+
+.featured-review-card .review-text {
+  font-size: var(--text-lg);
+  line-height: 1.6;
+  color: var(--color-text);
+  font-weight: 500;
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .featured-review-card .review-text {
+    font-size: 1.25rem; /* ~20px */
+  }
+}
+
+.featured-review-card .review-footer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+@media (min-width: 768px) {
+  .featured-review-card .review-footer {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--space-4);
+  }
+}
+
+.featured-review-card .stars {
+  display: flex;
+  gap: 2px;
+}
+
+.featured-review-card .stars svg {
+  width: 20px;
+  height: 20px;
+  fill: #FBBC05;
+}
+
+.featured-review-card .review-label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: rgba(22, 34, 58, 0.6);
+  font-size: var(--text-sm);
+  font-weight: 500;
+}
+
+.featured-review-card .review-label svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* 3. Rating Summary Block */
+.rating-summary-section {
+  padding: var(--space-8) 0 var(--space-12) 0;
+  background-color: var(--color-surface);
+}
+
+.rating-summary-card {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: var(--space-8);
+  border-radius: 16px;
+  background-color: var(--color-background-alt);
+  text-align: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.rating-summary-card h3 {
+  font-size: var(--text-xl);
+  margin-bottom: var(--space-4);
+}
+
+.rating-summary-card .big-rating {
+  font-size: var(--text-5xl);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+}
+
+.rating-summary-card .stars {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-1);
+  margin-bottom: var(--space-4);
+}
+
+.rating-summary-card .stars svg {
+  width: 32px;
+  height: 32px;
+  fill: #FBBC05;
+}
+
+/* 4. Trust Points */
+.trust-points-section {
+  padding: var(--space-16) 0;
+  background-color: var(--color-background-alt);
+}
+
+.trust-points-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-4);
+}
+
+.trust-points-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .trust-points-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.trust-point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--space-6);
+  background-color: var(--color-surface);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.trust-point .trust-icon {
+  width: 40px;
+  height: 40px;
+  color: var(--color-primary);
+  margin-bottom: var(--space-4);
+}
+
+.trust-point h4 {
+  font-size: var(--text-lg);
+  color: var(--color-text);
+  margin: 0;
+}
+
+/* 5. Write a Review CTA Sections */
+.write-review-section {
+  padding: var(--space-16) 0;
+  background-color: var(--color-surface);
+}
+
+.write-review-card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--space-8);
+  border-radius: 16px;
+  background-color: var(--color-background-alt);
+  text-align: center;
+  border: 1px solid var(--color-border);
+}
+
+.write-review-card h2 {
+  font-size: var(--text-2xl);
+  margin-bottom: var(--space-4);
+  color: var(--color-text);
+}
+
+.write-review-card p {
+  font-size: var(--text-lg);
+  color: rgba(22, 34, 58, 0.8);
+  margin-bottom: var(--space-6);
+}
+
+.write-review-card .btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
