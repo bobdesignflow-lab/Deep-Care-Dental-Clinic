@@ -186,12 +186,41 @@
   cursor: pointer;
   padding: var(--space-2);
   color: var(--color-text);
+  /* Fix size so layout doesn't shift during icon swap */
+  width: 40px;
+  height: 40px;
+  position: relative;
 }
 
 .mobile-toggle svg {
   width: 24px;
   height: 24px;
   fill: currentColor;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.2s ease, transform 0.25s ease;
+}
+
+/* Default state: show hamburger, hide X */
+.mobile-toggle .icon-hamburger {
+  opacity: 1;
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+.mobile-toggle .icon-close {
+  opacity: 0;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+/* Open state: hide hamburger, show X */
+.mobile-toggle.is-open .icon-hamburger {
+  opacity: 0;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+.mobile-toggle.is-open .icon-close {
+  opacity: 1;
+  transform: translate(-50%, -50%) rotate(0deg);
 }
 
 /* Footer (Mobile First) */

@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const isExpanded = mobileToggle.getAttribute('aria-expanded') === 'true';
       mobileToggle.setAttribute('aria-expanded', !isExpanded);
       mobileToggle.setAttribute('aria-label', !isExpanded ? 'Close navigation menu' : 'Open navigation menu');
+      mobileToggle.classList.toggle('is-open');
       navMenu.classList.toggle('is-active');
     });
   }

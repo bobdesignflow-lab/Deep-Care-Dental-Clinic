@@ -185,6 +185,11 @@
     min-height: 70vh;
   }
 
+  /* Pan to the right so dentist & patient are visible on narrow screens */
+  .hero__bg img {
+    object-position: right top;
+  }
+
   .hero__content {
     padding: 100px 1.5rem 60px;
     align-items: flex-start;
@@ -203,6 +208,11 @@
 @media (max-width: 480px) {
   .hero {
     min-height: 75svh;
+  }
+
+  /* Keep right-side focus on mobile too */
+  .hero__bg img {
+    object-position: right top;
   }
 
   .hero__content {
