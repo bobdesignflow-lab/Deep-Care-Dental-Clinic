@@ -1,0 +1,821 @@
+﻿commit 4cf71e47924561288f2c8e51cdebd6390979764a
+Author: Bob <bob.designflow@gmail.com>
+Date:   Wed Jul 1 09:37:18 2026 +0300
+
+    pages clean up
+
+diff --git a/index.html b/index.html
+index dbd52eb..82d52d8 100644
+--- a/index.html
++++ b/index.html
+@@ -40,8 +40,25 @@
+     <link rel="stylesheet" href="css/base.css">
+     <link rel="stylesheet" href="css/components.css">
+     <link rel="stylesheet" href="css/home.css">
++
++    <!-- SEO and Social -->
++    <meta name="robots" content="index, follow">
++        <link rel="canonical" href="https://deepcaredentalclinic.co.ke/">
++    
++    <meta property="og:type" content="website">
++    <meta property="og:url" content="https://deepcaredentalclinic.co.ke/">
++    <meta property="og:title" content="Deep Care Dental Clinic | Trusted Dental Care in Nairobi">
++    <meta property="og:description" content="Exceptional dental care and beautiful smiles at Deep Care Dental Clinic, Nairobi. Offering teeth cleaning, whitening, root canals, and braces for all ages.">
++        <meta property="og:image" content="https://deepcaredentalclinic.co.ke/assets/images/og-image.jpg">
++    
++    <meta name="twitter:card" content="summary_large_image">
++    <meta name="twitter:title" content="Deep Care Dental Clinic | Trusted Dental Care in Nairobi">
++    <meta name="twitter:description" content="Exceptional dental care and beautiful smiles at Deep Care Dental Clinic, Nairobi. Offering teeth cleaning, whitening, root canals, and braces for all ages.">
++    <meta name="twitter:image" content="https://deepcaredentalclinic.co.ke/assets/images/og-image.jpg">
++
+ </head>
+ <body>
++<a href="#main-content" class="skip-link">Skip to main content</a>
+ 
+ <!-- HEADER START -->
+ <header class="site-header" id="site-header">
+@@ -85,7 +102,7 @@
+ </header>
+ <!-- HEADER END -->
+ 
+-<main>
++<main id="main-content">
+     <!-- 1. HERO SECTION -->
+     <section class="hero">
+         <div class="hero-container">
+@@ -101,21 +118,21 @@
+                 
+                 <div class="trust-row delay-200">
+                     <div class="stars">
+-                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                     </div>
+                     <span>4.8 (29 Google Reviews)</span>
+-                    <svg class="google-icon" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
++                    <svg aria-hidden="true" class="google-icon" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+                 </div>
+             </div>
+             
+             <div class="hero-image-wrapper animate-on-scroll delay-200">
+                 <div class="hero-image-blob"></div>
+                 <!-- user requested image placeholder -->
+-                <img src="assets/images/hero-dental.jpg" alt="Friendly dentist treating a patient at Deep Care Dental Clinic" class="hero-image">
++                <img src="assets/images/hero-dental.jpg" alt="Friendly dentist treating a patient at Deep Care Dental Clinic" class="hero-image" width="1200" height="800" fetchpriority="high">
+             </div>
+         </div>
+     </section>
+@@ -124,19 +141,19 @@
+     <section class="stats-strip">
+         <div class="stats-container">
+             <div class="stat-item animate-on-scroll">
+-                <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
++                <svg aria-hidden="true" class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                 <div class="stat-text">4.8Γÿà Google Rating</div>
+             </div>
+             <div class="stat-item animate-on-scroll delay-100">
+-                <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
++                <svg aria-hidden="true" class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                 <div class="stat-text">29+ Happy Patients</div>
+             </div>
+             <div class="stat-item animate-on-scroll delay-200">
+-                <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h20"/><path d="M12 2L2 12l10 10 10-10L12 2z"/></svg>
++                <svg aria-hidden="true" class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h20"/><path d="M12 2L2 12l10 10 10-10L12 2z"/></svg>
+                 <div class="stat-text">9 Specialized Services</div>
+             </div>
+             <div class="stat-item animate-on-scroll delay-300">
+-                <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
++                <svg aria-hidden="true" class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                 <div class="stat-text">All Ages Welcome</div>
+             </div>
+         </div>
+@@ -149,32 +166,32 @@
+         
+         <div class="services-grid">
+             <div class="service-card animate-on-scroll">
+-                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12s1.5 2 4 2 4-2 4-2"/></svg>
++                <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12s1.5 2 4 2 4-2 4-2"/></svg>
+                 <h3>Professional Teeth Cleaning</h3>
+                 <p>Maintain healthy teeth and gums with our thorough professional cleaning services to prevent decay and disease.</p>
+             </div>
+             <div class="service-card animate-on-scroll delay-100">
+-                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
++                <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                 <h3>Teeth Whitening</h3>
+                 <p>Brighten your smile dramatically with our safe and effective professional whitening treatments.</p>
+             </div>
+             <div class="service-card animate-on-scroll delay-200">
+-                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 22h20L12 2z"/></svg>
++                <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 22h20L12 2z"/></svg>
+                 <h3>Root Canal Treatment</h3>
+                 <p>Save infected teeth from extraction with our painless, modern root canal therapy.</p>
+             </div>
+             <div class="service-card animate-on-scroll">
+-                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
++                <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+                 <h3>Dental Fillings</h3>
+                 <p>Restore decayed teeth securely with tooth-colored composite fillings for a natural look.</p>
+             </div>
+             <div class="service-card animate-on-scroll delay-100">
+-                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
++                <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                 <h3>Braces</h3>
+                 <p>Straighten misaligned teeth and correct bite anomalies with tailored orthodontic solutions.</p>
+             </div>
+             <div class="service-card animate-on-scroll delay-200">
+-                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18"/><path d="M3 6h18"/><path d="M3 18h18"/></svg>
++                <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18"/><path d="M3 6h18"/><path d="M3 18h18"/></svg>
+                 <h3>Crowns and Bridges</h3>
+                 <p>Reconstruct and replace damaged or missing teeth to restore complete functionality and aesthetics.</p>
+             </div>
+@@ -193,7 +210,7 @@
+                 <div class="why-list">
+                     <div class="why-item">
+                         <div class="why-item-icon">
+-                            <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
++                            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                         </div>
+                         <div class="why-item-text">
+                             <h4>Gentle, Personalized Treatment</h4>
+@@ -202,7 +219,7 @@
+                     </div>
+                     <div class="why-item">
+                         <div class="why-item-icon">
+-                            <svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
++                            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                         </div>
+                         <div class="why-item-text">
+                             <h4>Modern Dental Technology</h4>
+@@ -211,7 +228,7 @@
+                     </div>
+                     <div class="why-item">
+                         <div class="why-item-icon">
+-                            <svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="20" y1="8" x2="20" y2="14"/><line x1="23" y1="11" x2="17" y2="11"/></svg>
++                            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="20" y1="8" x2="20" y2="14"/><line x1="23" y1="11" x2="17" y2="11"/></svg>
+                         </div>
+                         <div class="why-item-text">
+                             <h4>Experienced & Caring Team</h4>
+@@ -220,7 +237,7 @@
+                     </div>
+                     <div class="why-item">
+                         <div class="why-item-icon">
+-                            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
++                            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                         </div>
+                         <div class="why-item-text">
+                             <h4>Convenient Nairobi CBD Location</h4>
+@@ -230,7 +247,7 @@
+                 </div>
+             </div>
+             <div class="why-image-wrapper animate-on-scroll delay-200">
+-                <img src="assets/images/clinic-interior.jpg" alt="Deep Care Dental Clinic Interior" class="why-image" loading="lazy">
++                <img src="assets/images/clinic-interior.jpg" alt="Deep Care Dental Clinic Interior" class="why-image" loading="lazy" width="800" height="600">
+             </div>
+         </div>
+     </section>
+@@ -240,50 +257,50 @@
+         <div class="reviews-header animate-on-scroll">
+             <h2>What Our Patients Say</h2>
+             <div class="stars">
+-                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+             </div>
+             <p>4.8 out of 5 ΓÇö 29 Google Reviews</p>
+         </div>
+         
+         <div class="reviews-grid">
+             <div class="review-card animate-on-scroll">
+-                <svg class="google-icon google-icon-corner" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
++                <svg aria-hidden="true" class="google-icon google-icon-corner" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+                 <div class="stars">
+-                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                 </div>
+                 <p class="review-quote">"Amazing service from start to finish. The dentist and the staff were professional and welcoming. They made me feel at ease and comfortable throughout my visit."</p>
+                 <p class="review-author">ΓÇö Google Review</p>
+             </div>
+             
+             <div class="review-card animate-on-scroll delay-100">
+-                <svg class="google-icon google-icon-corner" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
++                <svg aria-hidden="true" class="google-icon google-icon-corner" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+                 <div class="stars">
+-                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                 </div>
+                 <p class="review-quote">"Excellent service. I would highly recommend anyone anytime."</p>
+                 <p class="review-author">ΓÇö Google Review</p>
+             </div>
+             
+             <div class="review-card animate-on-scroll delay-200">
+-                <svg class="google-icon google-icon-corner" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
++                <svg aria-hidden="true" class="google-icon google-icon-corner" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+                 <div class="stars">
+-                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+-                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                 </div>
+                 <p class="review-quote">"It was an overall good experience in the dental clinic."</p>
+                 <p class="review-author">ΓÇö Google Review</p>
+@@ -297,21 +314,21 @@
+             <div class="contact-card animate-on-scroll">
+                 <h2>Visit Our Clinic</h2>
+                 <div class="contact-detail">
+-                    <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
++                    <svg aria-hidden="true" class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                     <div class="contact-text">
+                         <h4>Address</h4>
+                         <p>3rd Floor, Room 304, Popman House,<br>Moi Avenue, Near Khoja Mosque,<br>Nairobi, Kenya</p>
+                     </div>
+                 </div>
+                 <div class="contact-detail">
+-                    <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
++                    <svg aria-hidden="true" class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                     <div class="contact-text">
+                         <h4>Phone</h4>
+                         <a href="tel:+254712543781">0712 543781</a>
+                     </div>
+                 </div>
+                 <div class="contact-detail">
+-                    <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
++                    <svg aria-hidden="true" class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                     <div class="contact-text">
+                         <h4>Hours</h4>
+                         <p>Monday ΓÇô Saturday: 8:00 AM ΓÇô 5:30 PM<br><em>Appointments are recommended.</em></p>
+@@ -344,10 +361,10 @@
+       <p>Providing exceptional dental care and beautiful smiles in Nairobi, Kenya.</p>
+       <div class="social-icons">
+         <a href="#" aria-label="Facebook">
+-          <svg viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/></svg>
++          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/></svg>
+         </a>
+         <a href="#" aria-label="Instagram">
+-          <svg viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25zM12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg>
++          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25zM12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg>
+         </a>
+       </div>
+     </div>
+@@ -368,9 +385,9 @@
+       <ul class="footer-links">
+         <li>
+           <strong>Address:</strong><br>
+-          3rd Floor, Room 304, Popman House,<br>
++          <address style="font-style: normal; display: inline;">3rd Floor, Room 304, Popman House,<br>
+           Moi Avenue, Near Khoja Mosque,<br>
+-          Nairobi, Kenya
++          Nairobi, Kenya</address>
+         </li>
+         <li style="margin-top: 8px;">
+           <strong>Phone:</strong><br>
+
+commit 3c5e670be5dc05e72889af1f8af1f01f92a3137d
+Author: Bob <bob.designflow@gmail.com>
+Date:   Tue Jun 30 18:59:11 2026 +0300
+
+    updating contact page
+
+diff --git a/index.html b/index.html
+index 41b0931..dbd52eb 100644
+--- a/index.html
++++ b/index.html
+@@ -26,12 +26,7 @@
+         "addressLocality": "Nairobi",
+         "addressCountry": "KE"
+       },
+-      "openingHoursSpecification": {
+-        "@type": "OpeningHoursSpecification",
+-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+-        "opens": "08:00",
+-        "closes": "17:30"
+-      }
++      "openingHours": "Mo-Sa 08:00-17:30"
+     }
+     </script>
+     
+
+commit 52c51d9c3639320c2fa95ca184be25ab7377e9de
+Author: Bob <bob.designflow@gmail.com>
+Date:   Tue Jun 30 18:24:28 2026 +0300
+
+    services page update
+
+diff --git a/index.html b/index.html
+index 379e86d..41b0931 100644
+--- a/index.html
++++ b/index.html
+@@ -52,7 +52,7 @@
+ <header class="site-header" id="site-header">
+   <div class="header-container">
+     <a href="index.html" class="logo-link">
+-      <img src="assets/images/logo.png" alt="Deep Care Dental Clinic" class="logo-img">
++      <img src="assets/images/deep-care-dental-clinic-logo.png" alt="Deep Care Dental Clinic" class="logo-img">
+     </a>
+     
+     <nav class="nav-menu" id="nav-menu">
+@@ -345,7 +345,7 @@
+ <footer class="site-footer">
+   <div class="footer-container">
+     <div class="footer-col">
+-      <img src="assets/images/logo.png" alt="Deep Care Dental Clinic" style="height: 40px; margin-bottom: 16px; filter: brightness(0) invert(1);">
++      <img src="assets/images/deep-care-dental-clinic-logo.png" alt="Deep Care Dental Clinic" style="height: 40px; margin-bottom: 16px; filter: brightness(0) invert(1);">
+       <p>Providing exceptional dental care and beautiful smiles in Nairobi, Kenya.</p>
+       <div class="social-icons">
+         <a href="#" aria-label="Facebook">
+
+commit b3a227c4d68cbaefa9447822eccbb83fe948af00
+Author: Bob <bob.designflow@gmail.com>
+Date:   Tue Jun 30 18:15:56 2026 +0300
+
+    homepage
+
+diff --git a/index.html b/index.html
+index 0a54b51..379e86d 100644
+--- a/index.html
++++ b/index.html
+@@ -3,8 +3,37 @@
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Deep Care Dental Clinic - Nairobi, Kenya</title>
+-    <meta name="description" content="Exceptional dental care and beautiful smiles at Deep Care Dental Clinic in Nairobi, Kenya. Book your appointment today.">
++    <title>Deep Care Dental Clinic | Trusted Dental Care in Nairobi</title>
++    <meta name="description" content="Exceptional dental care and beautiful smiles at Deep Care Dental Clinic, Nairobi. Offering teeth cleaning, whitening, root canals, and braces for all ages.">
++    
++    <!-- Open Graph -->
++    <meta property="og:title" content="Deep Care Dental Clinic | Trusted Dental Care in Nairobi">
++    <meta property="og:description" content="Exceptional dental care and beautiful smiles at Deep Care Dental Clinic, Nairobi. Offering a range of services from root canals to cleaning.">
++    <meta property="og:image" content="https://www.deepcaredental.co.ke/assets/images/hero-dental.jpg">
++    <meta property="og:type" content="website">
++
++    <!-- JSON-LD LocalBusiness -->
++    <script type="application/ld+json">
++    {
++      "@context": "https://schema.org",
++      "@type": "Dentist",
++      "name": "Deep Care Dental Clinic",
++      "image": "https://www.deepcaredental.co.ke/assets/images/hero-dental.jpg",
++      "telephone": "+254712543781",
++      "address": {
++        "@type": "PostalAddress",
++        "streetAddress": "3rd Floor, Room 304, Popman House, Moi Avenue, Near Khoja Mosque",
++        "addressLocality": "Nairobi",
++        "addressCountry": "KE"
++      },
++      "openingHoursSpecification": {
++        "@type": "OpeningHoursSpecification",
++        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
++        "opens": "08:00",
++        "closes": "17:30"
++      }
++    }
++    </script>
+     
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+@@ -15,6 +44,7 @@
+     <link rel="stylesheet" href="css/tokens.css">
+     <link rel="stylesheet" href="css/base.css">
+     <link rel="stylesheet" href="css/components.css">
++    <link rel="stylesheet" href="css/home.css">
+ </head>
+ <body>
+ 
+@@ -61,9 +91,253 @@
+ <!-- HEADER END -->
+ 
+ <main>
+-    <section style="padding: var(--space-12) var(--space-4); max-width: 1200px; margin: 0 auto; min-height: 50vh;">
+-        <h1 style="color: var(--color-primary);">Home</h1>
+-        <p>This is a placeholder for the homepage content.</p>
++    <!-- 1. HERO SECTION -->
++    <section class="hero">
++        <div class="hero-container">
++            <div class="hero-content animate-on-scroll">
++                <span class="eyebrow">Trusted Dental Care in Nairobi</span>
++                <h1>Your Smile, Our Priority</h1>
++                <p class="hero-description">Experience gentle, personalized care with modern technology. We welcome patients of all ages to achieve their best smile.</p>
++                
++                <div class="hero-actions">
++                    <a href="contact.html" class="btn btn-accent">Book Appointment</a>
++                    <a href="tel:+254712543781" class="btn btn-secondary">Call Us: 0712 543781</a>
++                </div>
++                
++                <div class="trust-row delay-200">
++                    <div class="stars">
++                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    </div>
++                    <span>4.8 (29 Google Reviews)</span>
++                    <svg class="google-icon" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
++                </div>
++            </div>
++            
++            <div class="hero-image-wrapper animate-on-scroll delay-200">
++                <div class="hero-image-blob"></div>
++                <!-- user requested image placeholder -->
++                <img src="assets/images/hero-dental.jpg" alt="Friendly dentist treating a patient at Deep Care Dental Clinic" class="hero-image">
++            </div>
++        </div>
++    </section>
++
++    <!-- 2. TRUST/STATS STRIP -->
++    <section class="stats-strip">
++        <div class="stats-container">
++            <div class="stat-item animate-on-scroll">
++                <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
++                <div class="stat-text">4.8Γÿà Google Rating</div>
++            </div>
++            <div class="stat-item animate-on-scroll delay-100">
++                <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
++                <div class="stat-text">29+ Happy Patients</div>
++            </div>
++            <div class="stat-item animate-on-scroll delay-200">
++                <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h20"/><path d="M12 2L2 12l10 10 10-10L12 2z"/></svg>
++                <div class="stat-text">9 Specialized Services</div>
++            </div>
++            <div class="stat-item animate-on-scroll delay-300">
++                <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
++                <div class="stat-text">All Ages Welcome</div>
++            </div>
++        </div>
++    </section>
++
++    <!-- 3. SERVICES PREVIEW SECTION -->
++    <section class="section services-section animate-on-scroll">
++        <h2 class="section-title">Our Services</h2>
++        <p class="section-subtitle">Comprehensive dental care tailored to you.</p>
++        
++        <div class="services-grid">
++            <div class="service-card animate-on-scroll">
++                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12s1.5 2 4 2 4-2 4-2"/></svg>
++                <h3>Professional Teeth Cleaning</h3>
++                <p>Maintain healthy teeth and gums with our thorough professional cleaning services to prevent decay and disease.</p>
++            </div>
++            <div class="service-card animate-on-scroll delay-100">
++                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
++                <h3>Teeth Whitening</h3>
++                <p>Brighten your smile dramatically with our safe and effective professional whitening treatments.</p>
++            </div>
++            <div class="service-card animate-on-scroll delay-200">
++                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 22h20L12 2z"/></svg>
++                <h3>Root Canal Treatment</h3>
++                <p>Save infected teeth from extraction with our painless, modern root canal therapy.</p>
++            </div>
++            <div class="service-card animate-on-scroll">
++                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
++                <h3>Dental Fillings</h3>
++                <p>Restore decayed teeth securely with tooth-colored composite fillings for a natural look.</p>
++            </div>
++            <div class="service-card animate-on-scroll delay-100">
++                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
++                <h3>Braces</h3>
++                <p>Straighten misaligned teeth and correct bite anomalies with tailored orthodontic solutions.</p>
++            </div>
++            <div class="service-card animate-on-scroll delay-200">
++                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18"/><path d="M3 6h18"/><path d="M3 18h18"/></svg>
++                <h3>Crowns and Bridges</h3>
++                <p>Reconstruct and replace damaged or missing teeth to restore complete functionality and aesthetics.</p>
++            </div>
++        </div>
++        
++        <div class="services-action animate-on-scroll">
++            <a href="services.html" class="btn btn-secondary">View All Services</a>
++        </div>
++    </section>
++
++    <!-- 4. WHY CHOOSE US -->
++    <section class="section why-choose-us">
++        <div class="why-container">
++            <div class="why-content animate-on-scroll">
++                <h2>Why Choose Deep Care?</h2>
++                <div class="why-list">
++                    <div class="why-item">
++                        <div class="why-item-icon">
++                            <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
++                        </div>
++                        <div class="why-item-text">
++                            <h4>Gentle, Personalized Treatment</h4>
++                            <p>We prioritize your comfort and craft tailored plans specific to your dental goals.</p>
++                        </div>
++                    </div>
++                    <div class="why-item">
++                        <div class="why-item-icon">
++                            <svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
++                        </div>
++                        <div class="why-item-text">
++                            <h4>Modern Dental Technology</h4>
++                            <p>Equipped with state-of-the-art tools ensuring safer, quicker, and more precise procedures.</p>
++                        </div>
++                    </div>
++                    <div class="why-item">
++                        <div class="why-item-icon">
++                            <svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="20" y1="8" x2="20" y2="14"/><line x1="23" y1="11" x2="17" y2="11"/></svg>
++                        </div>
++                        <div class="why-item-text">
++                            <h4>Experienced & Caring Team</h4>
++                            <p>Our dedicated professionals bring decades of combined experience to your care.</p>
++                        </div>
++                    </div>
++                    <div class="why-item">
++                        <div class="why-item-icon">
++                            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
++                        </div>
++                        <div class="why-item-text">
++                            <h4>Convenient Nairobi CBD Location</h4>
++                            <p>Located easily in Popman House, Moi Avenue ΓÇö perfect for a lunch-hour visit.</p>
++                        </div>
++                    </div>
++                </div>
++            </div>
++            <div class="why-image-wrapper animate-on-scroll delay-200">
++                <img src="assets/images/clinic-interior.jpg" alt="Deep Care Dental Clinic Interior" class="why-image" loading="lazy">
++            </div>
++        </div>
++    </section>
++
++    <!-- 5. GOOGLE REVIEWS SECTION -->
++    <section class="section reviews-section">
++        <div class="reviews-header animate-on-scroll">
++            <h2>What Our Patients Say</h2>
++            <div class="stars">
++                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++            </div>
++            <p>4.8 out of 5 ΓÇö 29 Google Reviews</p>
++        </div>
++        
++        <div class="reviews-grid">
++            <div class="review-card animate-on-scroll">
++                <svg class="google-icon google-icon-corner" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
++                <div class="stars">
++                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                </div>
++                <p class="review-quote">"Amazing service from start to finish. The dentist and the staff were professional and welcoming. They made me feel at ease and comfortable throughout my visit."</p>
++                <p class="review-author">ΓÇö Google Review</p>
++            </div>
++            
++            <div class="review-card animate-on-scroll delay-100">
++                <svg class="google-icon google-icon-corner" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
++                <div class="stars">
++                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                </div>
++                <p class="review-quote">"Excellent service. I would highly recommend anyone anytime."</p>
++                <p class="review-author">ΓÇö Google Review</p>
++            </div>
++            
++            <div class="review-card animate-on-scroll delay-200">
++                <svg class="google-icon google-icon-corner" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
++                <div class="stars">
++                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                    <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
++                </div>
++                <p class="review-quote">"It was an overall good experience in the dental clinic."</p>
++                <p class="review-author">ΓÇö Google Review</p>
++            </div>
++        </div>
++    </section>
++
++    <!-- 6. LOCATION / MAP SECTION -->
++    <section class="section location-section">
++        <div class="location-container">
++            <div class="contact-card animate-on-scroll">
++                <h2>Visit Our Clinic</h2>
++                <div class="contact-detail">
++                    <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
++                    <div class="contact-text">
++                        <h4>Address</h4>
++                        <p>3rd Floor, Room 304, Popman House,<br>Moi Avenue, Near Khoja Mosque,<br>Nairobi, Kenya</p>
++                    </div>
++                </div>
++                <div class="contact-detail">
++                    <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
++                    <div class="contact-text">
++                        <h4>Phone</h4>
++                        <a href="tel:+254712543781">0712 543781</a>
++                    </div>
++                </div>
++                <div class="contact-detail">
++                    <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
++                    <div class="contact-text">
++                        <h4>Hours</h4>
++                        <p>Monday ΓÇô Saturday: 8:00 AM ΓÇô 5:30 PM<br><em>Appointments are recommended.</em></p>
++                    </div>
++                </div>
++                <div style="margin-top: var(--space-4);">
++                    <a href="https://www.google.com/maps/dir/?api=1&destination=Popman+House+Moi+Avenue+Nairobi+Kenya" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Get Directions</a>
++                </div>
++            </div>
++            
++            <div class="map-wrapper animate-on-scroll delay-200">
++                <iframe src="https://www.google.com/maps?q=Popman+House+Moi+Avenue+Nairobi+Kenya&output=embed" allowfullscreen="" loading="lazy"></iframe>
++            </div>
++        </div>
++    </section>
++
++    <!-- 7. FINAL CTA BANNER -->
++    <section class="cta-banner animate-on-scroll">
++        <h2>Ready for a Healthier, Confident Smile?</h2>
++        <p>Join our family of happy patients. Let's make your dream smile a reality.</p>
++        <a href="contact.html" class="btn btn-cta-alt">Book Your Appointment Today</a>
+     </section>
+ </main>
+ 
+
+commit a8afe261235296b589eb0fd1304fd41d81e6783b
+Author: Bob <bob.designflow@gmail.com>
+Date:   Tue Jun 30 18:04:03 2026 +0300
+
+    first commit
+
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..0a54b51
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,132 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Deep Care Dental Clinic - Nairobi, Kenya</title>
++    <meta name="description" content="Exceptional dental care and beautiful smiles at Deep Care Dental Clinic in Nairobi, Kenya. Book your appointment today.">
++    
++    <!-- Google Fonts -->
++    <link rel="preconnect" href="https://fonts.googleapis.com">
++    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
++    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
++    
++    <!-- Stylesheets -->
++    <link rel="stylesheet" href="css/tokens.css">
++    <link rel="stylesheet" href="css/base.css">
++    <link rel="stylesheet" href="css/components.css">
++</head>
++<body>
++
++<!-- HEADER START -->
++<header class="site-header" id="site-header">
++  <div class="header-container">
++    <a href="index.html" class="logo-link">
++      <img src="assets/images/logo.png" alt="Deep Care Dental Clinic" class="logo-img">
++    </a>
++    
++    <nav class="nav-menu" id="nav-menu">
++      <ul class="nav-links">
++        <li><a href="index.html">Home</a></li>
++        <li><a href="services.html">Services</a></li>
++        <li><a href="about.html">About</a></li>
++        <li><a href="reviews.html">Reviews</a></li>
++        <li><a href="contact.html">Contact</a></li>
++      </ul>
++      
++      <div class="header-actions-mobile-only">
++        <a href="tel:+254712543781" class="phone-link">
++          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
++          0712 543781
++        </a>
++        <a href="contact.html" class="btn btn-primary">Book Appointment</a>
++      </div>
++    </nav>
++    
++    <div class="header-actions">
++      <div class="header-actions-desktop">
++        <a href="tel:+254712543781" class="phone-link">
++          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
++          0712 543781
++        </a>
++        <a href="contact.html" class="btn btn-primary">Book Appointment</a>
++      </div>
++      
++      <button class="mobile-toggle" id="mobile-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
++        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
++      </button>
++    </div>
++  </div>
++</header>
++<!-- HEADER END -->
++
++<main>
++    <section style="padding: var(--space-12) var(--space-4); max-width: 1200px; margin: 0 auto; min-height: 50vh;">
++        <h1 style="color: var(--color-primary);">Home</h1>
++        <p>This is a placeholder for the homepage content.</p>
++    </section>
++</main>
++
++<!-- FOOTER START -->
++<footer class="site-footer">
++  <div class="footer-container">
++    <div class="footer-col">
++      <img src="assets/images/logo.png" alt="Deep Care Dental Clinic" style="height: 40px; margin-bottom: 16px; filter: brightness(0) invert(1);">
++      <p>Providing exceptional dental care and beautiful smiles in Nairobi, Kenya.</p>
++      <div class="social-icons">
++        <a href="#" aria-label="Facebook">
++          <svg viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/></svg>
++        </a>
++        <a href="#" aria-label="Instagram">
++          <svg viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25zM12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg>
++        </a>
++      </div>
++    </div>
++    
++    <div class="footer-col">
++      <h4>Quick Links</h4>
++      <ul class="footer-links">
++        <li><a href="index.html">Home</a></li>
++        <li><a href="services.html">Services</a></li>
++        <li><a href="about.html">About</a></li>
++        <li><a href="reviews.html">Reviews</a></li>
++        <li><a href="contact.html">Contact</a></li>
++      </ul>
++    </div>
++    
++    <div class="footer-col">
++      <h4>Contact Info</h4>
++      <ul class="footer-links">
++        <li>
++          <strong>Address:</strong><br>
++          3rd Floor, Room 304, Popman House,<br>
++          Moi Avenue, Near Khoja Mosque,<br>
++          Nairobi, Kenya
++        </li>
++        <li style="margin-top: 8px;">
++          <strong>Phone:</strong><br>
++          <a href="tel:+254712543781">0712 543781</a>
++        </li>
++        <li style="margin-top: 8px;">
++          <strong>Hours:</strong><br>
++          MonΓÇôSat: 8:00 AM ΓÇô 5:30 PM
++        </li>
++      </ul>
++    </div>
++    
++    <div class="footer-col">
++      <h4>Ready for a new smile?</h4>
++      <p style="margin-bottom: 16px;">Book your appointment today and let us take care of your dental health.</p>
++      <a href="contact.html" class="btn btn-primary" style="width: 100%;">Book an Appointment</a>
++    </div>
++  </div>
++  
++  <div class="footer-bottom">
++    <p>&copy; <span id="current-year">2026</span> Deep Care Dental Clinic. All rights reserved.</p>
++  </div>
++</footer>
++<!-- FOOTER END -->
++
++<script src="js/main.js"></script>
++</body>
++</html>
