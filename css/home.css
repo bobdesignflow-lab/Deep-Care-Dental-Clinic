@@ -45,7 +45,7 @@
 .hero {
   position: relative;
   width: 100%;
-  min-height: 92vh;
+  min-height: 75vh;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -182,7 +182,7 @@
 /* Tablet */
 @media (max-width: 768px) {
   .hero {
-    min-height: 85vh;
+    min-height: 70vh;
   }
 
   .hero__content {
@@ -202,7 +202,7 @@
 /* Mobile */
 @media (max-width: 480px) {
   .hero {
-    min-height: 100svh;
+    min-height: 75svh;
   }
 
   .hero__content {
