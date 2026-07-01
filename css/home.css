@@ -114,6 +114,9 @@
 .hero-image-wrapper {
   position: relative;
   border-radius: 16px;
+  overflow: hidden; /* prevent blob from causing horizontal scroll */
+  display: flex;
+  justify-content: center;
 }
 
 .hero-image-blob {
@@ -122,9 +125,10 @@
   right: -20px;
   bottom: -20px;
   left: 20px;
-  background-color: rgba(74, 143, 214, 0.15); /* Sky blue tint */
+  background-color: rgba(26, 86, 174, 0.09);
   border-radius: 24px;
   z-index: 0;
+  pointer-events: none;
 }
 
 .hero-image {
@@ -132,7 +136,10 @@
   z-index: 1;
   border-radius: 16px;
   width: 100%;
+  max-width: 580px;
+  height: auto;
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
 }
 
 /* 2. Trust/Stats Strip */
@@ -182,41 +189,95 @@
   margin: 0 auto var(--space-8) auto;
   display: grid;
   grid-template-columns: 1fr;
-  gap: var(--space-6);
+  gap: 1.5rem;
 }
 
+/* Service card — image-on-top layout */
 .service-card {
-  background-color: var(--color-background-alt);
+  background: #FFFFFF;
+  border: 0.5px solid #E3E7EE;
   border-radius: 12px;
-  padding: var(--space-6);
-  border: 2px solid transparent;
-  transition: all 0.3s ease;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .service-card:hover {
-  border-color: var(--color-primary);
   transform: translateY(-4px);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-  background-color: var(--color-surface);
+  box-shadow: 0 8px 24px rgba(26, 86, 174, 0.12);
 }
 
-.service-icon {
-  width: 40px;
-  height: 40px;
-  color: var(--color-secondary);
-  margin-bottom: var(--space-4);
+.service-card__image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
 }
 
-.service-card h3 {
-  margin-bottom: var(--space-2);
+.service-card__image-wrap {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
-.service-card p {
-  color: #4A5568;
-  font-size: var(--text-sm);
+.service-card__image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  background-color: #E6F1FB; /* soft blue fallback for broken images */
+}
+
+.service-card__content {
+  padding: 1.25rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.service-card__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.service-card__header .service-icon {
+  width: 24px;
+  height: 24px;
+  color: #1A56AE;
+  flex-shrink: 0;
   margin-bottom: 0;
+}
+
+.service-card__content h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #16223A;
+  margin-bottom: 0;
+}
+
+.service-card__content p {
+  font-size: 0.875rem;
+  color: #4B5563;
+  line-height: 1.5;
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.service-card .learn-more {
+  margin-top: auto;
+  color: #1A56AE;
+  font-weight: 500;
+  font-size: 0.875rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.service-card .learn-more:hover {
+  text-decoration: underline;
 }
 
 .services-action {
@@ -425,6 +486,12 @@
 
 
 /* Media Queries */
+@media (min-width: 600px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (min-width: 768px) {
   .hero-container {
     grid-template-columns: 1fr 1fr;
@@ -440,10 +507,6 @@
   
   .stats-container {
     grid-template-columns: repeat(4, 1fr);
-  }
-  
-  .services-grid {
-    grid-template-columns: repeat(2, 1fr);
   }
   
   .why-container {
@@ -479,5 +542,15 @@
   
   .hero {
     padding: var(--space-20) var(--space-4);
+  }
+
+  .hero-image {
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-image {
+    border-radius: 12px;
   }
 }

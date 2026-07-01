@@ -131,8 +131,7 @@
             
             <div class="hero-image-wrapper animate-on-scroll delay-200">
                 <div class="hero-image-blob"></div>
-                <!-- user requested image placeholder -->
-                <img src="assets/images/hero-dental.jpg" alt="Friendly dentist treating a patient at Deep Care Dental Clinic" class="hero-image">
+                <img src="assets/images/homepage-hero.jpg" alt="Professional dental care at Deep Care Dental Clinic, Nairobi" class="hero-image" fetchpriority="high" loading="eager" width="600" height="500">
             </div>
         </div>
     </section>
@@ -166,34 +165,105 @@
         
         <div class="services-grid">
             <div class="service-card animate-on-scroll">
-                <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12s1.5 2 4 2 4-2 4-2"/></svg>
-                <h3>Professional Teeth Cleaning</h3>
-                <p>Maintain healthy teeth and gums with our thorough professional cleaning services to prevent decay and disease.</p>
+                <div class="service-card__image-container">
+                    <picture class="service-card__image-wrap">
+                        <source srcset="assets/images/professional-teeth-cleaning.png" type="image/png">
+                        <img src="assets/images/professional-teeth-cleaning.jpg" alt="Professional teeth cleaning at Deep Care Dental Clinic" width="400" height="240" loading="lazy">
+                    </picture>
+                </div>
+                <div class="service-card__content">
+                    <div class="service-card__header">
+                        <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12s1.5 2 4 2 4-2 4-2"/></svg>
+                        <h3>Professional Teeth Cleaning</h3>
+                    </div>
+                    <p>Maintain healthy teeth and gums with our thorough professional cleaning services to prevent decay and disease.</p>
+                    <a href="cleaning.html" class="learn-more">Learn More <span>→</span></a>
+                </div>
             </div>
+            
             <div class="service-card animate-on-scroll delay-100">
-                <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                <h3>Teeth Whitening</h3>
-                <p>Brighten your smile dramatically with our safe and effective professional whitening treatments.</p>
+                <div class="service-card__image-container">
+                    <picture class="service-card__image-wrap">
+                        <source srcset="assets/images/teeth-whitening.png" type="image/png">
+                        <img src="assets/images/teeth-whitening.jpg" alt="Professional teeth whitening at Deep Care Dental Clinic" width="400" height="240" loading="lazy">
+                    </picture>
+                </div>
+                <div class="service-card__content">
+                    <div class="service-card__header">
+                        <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        <h3>Teeth Whitening</h3>
+                    </div>
+                    <p>Brighten your smile dramatically with our safe and effective professional whitening treatments.</p>
+                    <a href="teeth-whitening.html" class="learn-more">Learn More <span>→</span></a>
+                </div>
             </div>
+            
             <div class="service-card animate-on-scroll delay-200">
-                <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 22h20L12 2z"/></svg>
-                <h3>Root Canal Treatment</h3>
-                <p>Save infected teeth from extraction with our painless, modern root canal therapy.</p>
+                <div class="service-card__image-container">
+                    <picture class="service-card__image-wrap">
+                        <source srcset="assets/images/root-canal-treatment.png" type="image/png">
+                        <img src="assets/images/root-canal-treatment.jpg" alt="Root canal treatment at Deep Care Dental Clinic" width="400" height="240" loading="lazy">
+                    </picture>
+                </div>
+                <div class="service-card__content">
+                    <div class="service-card__header">
+                        <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 22h20L12 2z"/></svg>
+                        <h3>Root Canal Treatment</h3>
+                    </div>
+                    <p>Save infected teeth from extraction with our painless, modern root canal therapy.</p>
+                    <a href="root-canal-treatment.html" class="learn-more">Learn More <span>→</span></a>
+                </div>
             </div>
+            
             <div class="service-card animate-on-scroll">
-                <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
-                <h3>Dental Fillings</h3>
-                <p>Restore decayed teeth securely with tooth-colored composite fillings for a natural look.</p>
+                <div class="service-card__image-container">
+                    <picture class="service-card__image-wrap">
+                        <source srcset="assets/images/dental-fillings.png" type="image/png">
+                        <img src="assets/images/dental-fillings.jpg" alt="Dental fillings at Deep Care Dental Clinic" width="400" height="240" loading="lazy">
+                    </picture>
+                </div>
+                <div class="service-card__content">
+                    <div class="service-card__header">
+                        <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+                        <h3>Dental Fillings</h3>
+                    </div>
+                    <p>Restore decayed teeth securely with tooth-colored composite fillings for a natural look.</p>
+                    <a href="dental-fillings.html" class="learn-more">Learn More <span>→</span></a>
+                </div>
             </div>
+            
             <div class="service-card animate-on-scroll delay-100">
-                <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                <h3>Braces</h3>
-                <p>Straighten misaligned teeth and correct bite anomalies with tailored orthodontic solutions.</p>
+                <div class="service-card__image-container">
+                    <picture class="service-card__image-wrap">
+                        <source srcset="assets/images/braces.png" type="image/png">
+                        <img src="assets/images/braces.jpg" alt="Dental braces at Deep Care Dental Clinic" width="400" height="240" loading="lazy">
+                    </picture>
+                </div>
+                <div class="service-card__content">
+                    <div class="service-card__header">
+                        <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        <h3>Braces</h3>
+                    </div>
+                    <p>Straighten misaligned teeth and correct bite anomalies with tailored orthodontic solutions.</p>
+                    <a href="braces.html" class="learn-more">Learn More <span>→</span></a>
+                </div>
             </div>
+            
             <div class="service-card animate-on-scroll delay-200">
-                <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18"/><path d="M3 6h18"/><path d="M3 18h18"/></svg>
-                <h3>Crowns and Bridges</h3>
-                <p>Reconstruct and replace damaged or missing teeth to restore complete functionality and aesthetics.</p>
+                <div class="service-card__image-container">
+                    <picture class="service-card__image-wrap">
+                        <source srcset="assets/images/crown-bridges.png" type="image/png">
+                        <img src="assets/images/crown-bridges.jpg" alt="Crowns and bridges at Deep Care Dental Clinic" width="400" height="240" loading="lazy">
+                    </picture>
+                </div>
+                <div class="service-card__content">
+                    <div class="service-card__header">
+                        <svg aria-hidden="true" class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18"/><path d="M3 6h18"/><path d="M3 18h18"/></svg>
+                        <h3>Crowns and Bridges</h3>
+                    </div>
+                    <p>Reconstruct and replace damaged or missing teeth to restore complete functionality and aesthetics.</p>
+                    <a href="crowns-and-bridges.html" class="learn-more">Learn More <span>→</span></a>
+                </div>
             </div>
         </div>
         
