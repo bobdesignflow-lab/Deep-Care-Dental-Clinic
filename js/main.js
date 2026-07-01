@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     mobileToggle.addEventListener('click', () => {
       const isExpanded = mobileToggle.getAttribute('aria-expanded') === 'true';
       mobileToggle.setAttribute('aria-expanded', !isExpanded);
+      mobileToggle.setAttribute('aria-label', !isExpanded ? 'Close navigation menu' : 'Open navigation menu');
       navMenu.classList.toggle('is-active');
     });
   }
@@ -52,20 +53,24 @@ document.addEventListener('DOMContentLoaded', () => {
   // Scroll Animations using IntersectionObserver
   const animatedElements = document.querySelectorAll('.animate-on-scroll');
   if (animatedElements.length > 0) {
-    const observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible');
-          // stop observing once it's visible so it doesn't animate out and in forever
-          observer.unobserve(entry.target);
-        }
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            // stop observing once it's visible so it doesn't animate out and in forever
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        rootMargin: '0px 0px -50px 0px',
+        threshold: 0.1
       });
-    }, {
-      rootMargin: '0px 0px -50px 0px',
-      threshold: 0.1
-    });
 
-    animatedElements.forEach(el => observer.observe(el));
+      animatedElements.forEach(el => observer.observe(el));
+    } else {
+      animatedElements.forEach(el => el.classList.add('is-visible'));
+    }
   }
   
   // Accordion Logic
